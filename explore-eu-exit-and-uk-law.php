@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en-gb">
+<head>
+	<meta charset="UTF-8">
+	<title>EU Exit and UK law | Explore our collections | legislation.gov.uk</title>
+	<noscript>
+		<link rel="stylesheet" type="text/css" href="default_v4.css">
+	</noscript>
+	<link href="default_v4.less" rel="stylesheet/less">
+	<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+	<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+	<script src="default_v4.js"></script>
+	<script src="less.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=1">
+</head>
+<body>
+<?php include "hdr.php" ?>
+	<main>
+		<section>
+			<nav aria-labelledby="breadcrumbNavigation">
+				<h2 id="breadcrumbNavigation">Where this page sits</h2>
+				<ol>
+					<li><a href="default.php">Home</a></li>
+					<li><a href="explore-our-collections.php">Explore our collections</a></li>
+					<li><a href="explore-eu-exit-and-uk-law.php" aria-current="page">EU Exit and UK law</a></li>
+				</ol>
+			</nav>
+			<h1 id="main-content-h" tabindex="-1">EU Exit and UK law</h1>
+		</section>
+		<section class="cards">
+			<p>Find out what happened with EU legislation when the UK left the EU, explore our collection of legislation originating from the EU, and find out how to understand what EU legislation applies to the UK.</p>
+			<h2>Main sections in EU Exit and UK law</h2>
+			<ul>
+				<li>
+					<article>
+						<a href="#"><h3>What happened when the UK left the EU</h3></a>
+					</article>
+				</li>
+				<li>
+					<article>
+						<a href="#"><h3>EU legislation that applied to the UK as a member state</h3></a>
+					</article>
+				</li>
+				<li>
+					<article>
+						<a href="#"><h3>Does legislation originating from the EU apply in the UK?</h3></a>
+					</article>
+				</li>
+				<li>
+					<article>
+						<a href="explore-legislation-originating-from-the-eu.php"><h3>Our collection of legislation originating from the EU</h3></a>
+					</article>
+				</li>
+				<li>
+					<article>
+						<a href="#"><h3>EU Exit Web Archive</h3></a>
+					</article>
+				</li>
+			</ul>
+		</section>
+		<aside aria-labelledby="relatedInformation">
+			<h2 id="relatedInformation">You might also be interested in finding out about...</h2>
+			<ul>
+				<li>
+					<article>
+						<a href="#">
+							<h3>Legislation originating from the EU</h3>
+							<p>EU legislation as it applied to the UK on 31 Dec 2020, with any changes since made by the UK applied.</p>
+						</a>
+					</article>
+				</li>
+				<li>
+					<article>
+						<a href="#">
+							<h3>What applies in the UK</h3>
+							<p>Find out which legislation applies in the UK, from the UK Parliament and Governments, to legislation originating from the EU.</p>
+						</a>
+					</article>
+				</li>
+				<li>
+					<article>
+						<a href="#">
+							<h3>What legislation we hold</h3>
+							<p>We hold most, but not all, types of legislation and their accompanying explanatory documents. See a complete list of what we hold.</p>
+						</a>
+					</article>
+				</li>
+				<li>
+					<article>
+						<a href="#">
+							<h3>How legislation works</h3>
+							<p>Find out how laws get made, what various terms mean, how legislation can change other legislation and what revised legislation is.</p>
+						</a>
+					</article>
+				</li>
+				<li>
+					<article>
+						<a href="#">
+							<h3>Our editorial process</h3>
+							<p>Find out what legislation we revise, our timescales for revision, the conventions we follow and the principles that we abide by.</p>
+						</a>
+					</article>
+				</li>
+			</ul>
+		</aside>
+	</main>
+<?php include "ftr.php" ?>
+</body>
+</html>
+

@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en-gb">
+<head>
+	<meta charset="UTF-8">
+	<title>Help and guidance | legislation.gov.uk</title>
+	<noscript>
+		<link rel="stylesheet" type="text/css" href="default_v4.css">
+	</noscript>
+	<link href="default_v4.less" rel="stylesheet/less">
+	<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+	<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+	<script src="default_v4.js"></script>
+	<script src="less.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=1">
+</head>
+<body>
+<?php include "hdr.php" ?>
+	<main>
+		<section>
+			<nav aria-labelledby="breadcrumbNavigation">
+				<h2 id="breadcrumbNavigation">Where this page sits</h2>
+				<ol>
+					<li><a href="default.php">Home</a></li>
+					<li><a href="help-and-guidance.php" aria-current="page">Help and guidance</a></li>
+				</ol>
+			</nav>
+			<h1 id="main-content-h" tabindex="-1">Help and guidance</h1>
+		</section>
+		<section class="cards icon-cards">
+			<p>Find out how legislation works, from drafting a bill to gaining Royal Assent. Discover the types of legislation and accompanying explanatory documents we publish and update, and how we apply amendments. Get hints and tips on finding and navigating legislation, using the timeline, reviewing annotations in amended legislation, and understanding a piece of legislation's status, including its geographical extent</p>
+			<h2>Main sections in Help and guidance</h2>
+			<ul>
+				<li>
+					<article>
+						<a class="icon_what_legislation_we_hold" href="#">
+							<h3>What legislation we hold</h3>
+							<p>We hold most, but not all, types of legislation and their accompanying explanatory documents. See a comprehensive list of what we do hold.</p>
+						</a>
+					</article>
+				</li>
+				<li>
+					<article>
+						<a class="icon_how_legislation_works" href="help-how-legislation-works.php">
+							<h3>How legislation works</h3>
+							<p>Find out how laws get made, what the various terms mean, how certain legislation changes other legislation, and what revised legislation is.</p>
+						</a>
+					</article>
+				</li>
+				<li>
+					<article>
+						<a class="icon_what_legislation_applies_uk" href="#">
+							<h3>What legislation applies in the UK</h3>
+							<p>Chronological lists detailing changes to Local, and Private and Personal Acts, between 1539 and 2008.</p>
+						</a>
+					</article>
+				</li>
+				<li>
+					<article>
+						<a class="icon_tips_on_reading_legislation" href="#">
+							<h3>Tips on reading legislation</h3>
+							<p>Public access to court judgments and tribunal decisions is an essential part of interpreting legislation. Explore The National Archives' Find Case Law service.</p>
+						</a>
+					</article>
+				</li>
+				<li>
+					<article>
+						<a class="icon_how_to_use_website" href="#">
+							<h3>How to use this website</h3>
+							<p>How to navigate and interact with the website, find changes to legislation, see different versions, use search, understand annotations and more...</p>
+						</a>
+					</article>
+				</li>
+				<li>
+					<article>
+						<a class="icon_editorial_process" href="#">
+							<h3>Our editorial process</h3>
+							<p>Find out what legislation we revise, our timescales for revision, the conventions we follow and the principles that we abide by.</p>
+						</a>
+					</article>
+				</li>
+				<li>
+					<article>
+						<a class="icon_glossary" href="#">
+							<h3>Glosary of terms</h3>
+							<p>You may not immediately understand certain words and phrases in the context of legislation. Find out exactly what they mean here.</p>
+						</a>
+					</article>
+				</li>
+				<li>
+					<article>
+						<a class="icon_accessibility_statement" href="#">
+							<h3>Accessibility statement</h3>
+							<p>Accessibility is very important to us. We want as many people as possible to be able to use this website. Find out how accessible our website is.</p>
+						</a>
+					</article>
+				</li>
+				<li>
+					<article>
+						<a class="icon_statutory_instrument_practice" href="#">
+							<h3>Statutory Instrument Practice</h3>
+							<p>A technical document for lawyers and drafters involved in preparing and making Statutory Instrument.</p>
+						</a>
+					</article>
+				</li>
+				<li>
+					<article>
+						<a class="icon_documentation_developers" href="#">
+							<h3>Documentation for developers</h3>
+							<p>Technical documentation for development teams working with the legislation data API.</p>
+						</a>
+					</article>
+				</li>
+				<li>
+					<article>
+						<a class="icon_faqs" href="#">
+							<h3>FAQs</h3>
+							<p>Frequently asked questions about legislation and the legislation.gov.uk website.</p>
+						</a>
+					</article>
+				</li>
+				<li>
+					<article>
+						<a class="icon_contact_us" href="#">
+							<h3>Contact us</h3>
+							<p>Get in touch to ask a question or to provide feedback about about the legislation.gov.uk website.</p>
+						</a>
+					</article>
+				</li>
+			</ul>
+		</section>
+	</main>
+<?php include "ftr.php" ?>
+</body>
+</html>

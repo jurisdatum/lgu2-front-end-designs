@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en-gb">
+<head>
+	<meta charset="UTF-8">
+	<title>New legislation feeds | New legislation | What's new | legislation.gov.uk</title>
+	<noscript>
+		<link rel="stylesheet" type="text/css" href="default_v4.css">
+	</noscript>
+	<link href="default_v4.less" rel="stylesheet/less">
+	<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+	<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+	<script src="default_v4.js"></script>
+	<script src="less.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=1">
+</head>
+<body>
+<?php include "hdr.php" ?>
+	<main class="new-legislation-feeds">
+		<section>
+			<nav aria-labelledby="breadcrumbNavigation">
+				<h2 id="breadcrumbNavigation">Where this page sits</h2>
+				<ol>
+					<li><a href="default.php">Home</a></li>
+					<li><a href="whats-new.php">What's new</a></li>
+					<li><a href="new-legislation.php">New legislation</a></li>
+					<li><a href="new-legislation-feeds.php" aria-current="page">New legislation feeds</a></li>
+				</ol>
+			</nav>
+			<h1 id="main-content-h" tabindex="-1">New legislation feeds</h1>
+		</section>
+		<section>
+			<p>By using the legislation feeds you can be alerted to new legislation as soon as it is published without having to visit the website. Legislation feeds are provided free of charge.</p>
+			<p>For new legislation we use Atom feeds which can be read by most newsreaders and some browsers. If your browser does not have built-in support for feeds, you will need to download a free extension from the <a href="https://chrome.google.com/webstore/search/rss%20reader">Chrome Web Store</a>, <a href="https://addons.mozilla.org/en-GB/firefox/search/?platform=windows&q=rss%20reader">Firefox Add-ons</a>, or the <a href="https://www.microsoft.com/en-gb/search/shop/apps?q=rss+reader&Price=0">Microsoft Store</a>.</p>
+			<p>To add a feed, copy and paste the link - or drag it - into your newsreader.</p>
+			<div class="narrow-lists">
+				<h2>New legislation feeds</h2>
+				<ul>
+					<li><a href="/new/data.feed">All legislation (excluding drafts)</a>
+						<ul>
+							<li><a href="/new/ukpga/data.feed">UK Public General Acts</a></li>
+							<li><a href="/new/uksi/data.feed">UK Statutory Instruments</a></li>
+							<li><a href="/new/ukmd/data.feed">UK Ministerial Directions</a></li>
+							<li><a href="/new/asp/data.feed">Acts of the Scottish Parliament</a></li>
+							<li><a href="/new/ssi/data.feed">Scottish Statutory Instruments</a></li>
+							<li><a href="/new/asc/data.feed">Acts of Senedd Cymru</a></li>
+							<li><a href="/new/wsi/data.feed">Wales Statutory Instruments</a></li>
+							<li><a href="/new/nia/data.feed">Acts of the Northern Ireland Assembly</a></li>
+							<li><a href="/new/nisi/data.feed">Northern Ireland Orders in Council</a></li>
+							<li><a href="/new/nisr/data.feed">Northern Ireland Statutory Rules</a></li>
+
+						</ul>
+					</li>
+				</ul>
+				<h2>New draft legislation feeds</h2>
+				<ul>
+					<li><a href="/new/draft/data.feed">All draft legislation</a>
+						<ul>
+							<li><a href="/new/ukdsi/data.feed">UK Draft Statutory Instrument</a></li>
+							<li><a href="/new/sdsi/data.feed">Scottish Draft Statutory Instruments</a></li>
+							<li><a href="/new/nidsr/data.feed">Northern Ireland Draft Statutory Rules</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</section>
+		<aside aria-labelledby="relatedInformation">
+			<h2 id="relatedInformation">You might also be interested in finding out about...</h2>
+			<ul>
+				<li>
+					<article>
+						<a href="new-legislation.php">
+							<h3>New legislation</h3>
+							<p>Newly enacted legislation for the UK, Scotland, Wales and Northern Ireland, listed by publication date.</p>
+						</a>
+					</article>
+				</li>
+				<li>
+					<article>
+						<a href="#">
+							<h3>What legislation we hold</h3>
+							<p>We hold most but not all types of legislation and their accompanying explanatory documents. Find out what legislation we hold.</p>
+						</a>
+					</article>
+				</li>
+				<li>
+					<article>
+						<a href="#">
+							<h3>How legislation is made</h3>
+							<p>Where to find details of bills currently before each parliament, and records of parliamentary debates relating to them.</p>
+						</a>
+					</article>
+				</li>
+				<li>
+					<article>
+						<a href="#">
+							<h3>How soon new legislation is published</h3>
+							<p>Find out how soon after publication we publish new legislation on the website.</p>
+						</a>
+					</article>
+				</li>
+				<li>
+					<article>
+						<a href="#">
+							<h3>Our editorial process</h3>
+							<p>Find out what legislation we revise, our timescales for revision, the conventions we follow and the principles that we abide by.</p>
+						</a>
+					</article>
+				</li>
+			</ul>
+		</aside>
+	</main>
+<?php include "ftr.php" ?>
+</body>
+</html>
