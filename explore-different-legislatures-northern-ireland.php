@@ -35,17 +35,17 @@
 			<div class="narrow-lists">
 				<h3>Primary legislation</h3>
 				<ul>
-					<li><a href="#">Acts of the Northern Ireland Assembly</a></li>
-					<li><a href="#">Acts of the Old Irish Parliament 1495-1800</a></li>
+					<li><a href="search.php?type=nia">Acts of the Northern Ireland Assembly</a></li>
+					<li><a href="search.php?type=aip">Acts of the Old Irish Parliament 1495-1800</a></li>
 				</ul>
 				<h3>Secondary legislation</h3>
 				<ul>
-					<li><a href="#">Northern Ireland Statutory Rules</a></li>
-					<li><a href="#">Northern Ireland Orders in Council</a></li>
-					<li><a href="#">Northern Ireland Assembly Measures 1974</a></li>
-					<li><a href="#">Acts of the Northern Ireland Parliament 1921-1972</a></li>
-					<li><a href="#">Northern Ireland Statutory Rules and Orders 1922-1973</a></li>
-					<li><a href="#">Northern Ireland Draft Statutory Rules</a></li>
+					<li><a href="search.php?type=nisr">Northern Ireland Statutory Rules</a></li>
+					<li><a href="search.php?type=nisi">Northern Ireland Orders in Council</a></li>
+					<li><a href="search.php?type=mnia&year=1974">Measures of the Northern Ireland Assembly 1974</a></li>
+					<li><a href="search.php?type=apni">Acts of the Northern Ireland Parliament 1921-1972</a></li>
+					<li><a href="search.php?type=nisro">Northern Ireland Statutory Rules and Orders 1922-1973</a></li>
+					<li><a href="search.php?type=nidsr">Northern Ireland Draft Statutory Rules</a></li>
 				</ul>
 			</div>
 			<h2>Legislation that may apply to Northern Ireland</h2>
@@ -53,20 +53,20 @@
 			<div class="narrow-lists">
 				<h3>Primary legislation</h3>
 				<ul>
-					<li><a href="#">UK Public General Acts</a></li>
-					<li><a href="#">UK Local Acts</a></li>
-					<li><a href="#">UK Private and Personal Acts</a></li>
-					<li><a href="#">Acts of the English Parliament 1267-1706</a></li>
-					<li><a href="#">Acts of the Parliament of Great Britain 1707-1800</a></li>
-					<li><a href="#">Local Acts of the Parliament of Great Britain 1797-1800</a></li>
-					<li><a href="#">Private and Personal Acts of the Parliament of Great Britain 1707-1800</a></li>
+					<li><a href="search.php?type=ukpga">UK Public General Acts</a></li>
+					<li><a href="search.php?type=ukla">UK Local Acts</a></li>
+					<li><a href="search.php?type=ukppa">UK Private and Personal Acts</a></li>
+					<li><a href="search.php?type=aep">Acts of the English Parliament 1267-1706</a></li>
+					<li><a href="search.php?type=apgb">Acts of the Parliament of Great Britain 1707-1800</a></li>
+					<li><a href="search.php?type=gbla">Local Acts of the Parliament of Great Britain 1797-1800</a></li>
+					<li><a href="search.php?type=gbppa">Private and Personal Acts of the Parliament of Great Britain 1707-1800</a></li>
 				</ul>
 				<h3>Secondary legislation</h3>
 				<ul>
-					<li><a href="#">UK Statutory Instruments</a></li>
-					<li><a href="#">UK Ministerial Directions</a></li>
-					<li><a href="#">UK Statutory Rules and Orders 1900-1948</a></li>
-					<li><a href="#">UK Draft Statutory Instruments</a></li>
+					<li><a href="search.php?type=uksi">UK Statutory Instruments</a></li>
+					<li><a href="search.php?type=ukmd">UK Ministerial Directions</a></li>
+					<li><a href="search.php?type=uksro">UK Statutory Rules and Orders 1900-1948</a></li>
+					<li><a href="search.php?type=ukdsi">UK Draft Statutory Instruments</a></li>
 				</ul>
 			</div>
 			<h2 id="history-of-ni">The history of primary legislation for Northern Ireland</h2>

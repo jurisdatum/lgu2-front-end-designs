@@ -19,10 +19,10 @@
 				<li><a href="#search-filters-h">Skip to search filters</a></li>
 				<li><a href="#search-results-h">Skip to search results</a></li>
 			</ul>
-			<div class="top-menu">
-				<a href="/tna/default.php" aria-current="page" class="hdr-home"><span>legislation</span>.gov.uk</a>
+			<nav aria-label="Organisation links">
+				<a href="/tna/default.php" class="hdr-home"><span>legislation</span>.gov.uk</a>
 				<div class="hdr-tna">Delivered by <a href="/tna/"><span>The National Archives</span></a></div>
-			</div>
+			</nav>
 			<div class="hdr-menu">
 				<h2 id="mainMenu">Main menu</h2>
 				<details>
@@ -31,7 +31,7 @@
 						<span class="close">Close</span>
 					</summary>
 					<div class="hdr-links">
-						<nav aria-labelledby="mainMenu">
+						<nav aria-labelledby="mainMenu" class="main-menu">
 							<ul>
 								<li><a href="/tna/default.php"<?php if(isCurrentPage("default")) { ?> aria-current="page"<?php } ?>>Home</a></li>
 								<li><a href="/tna/explore-our-collections.php"<?php if(isCurrentPage("explore")) { ?> aria-current="page"<?php } ?>>Explore our collections</a></li>
@@ -41,9 +41,13 @@
 								<li><a href="/tna/about-us.php"<?php if(isCurrentPage("about")) { ?> aria-current="page"<?php } ?>>About us</a></li>
 							</ul>
 						</nav>
-						<div class="hdr-lang">
-							<h3>Change language</h3>
-							<a href="/cy" lang="cy">Cymraeg</a><a href="/" aria-current="page"><span>Language set to </span>English</a></div>
+						<nav aria-labelledby="changeLanguage" class="hdr-lang">
+							<h3 id="changeLanguage">Change language</h3>
+                            <ul>
+                                <li><a href="/cy" lang="cy">Cymraeg</a></li>
+                                <li><a href="/" aria-current="page"><span>Language set to </span>English</a></li>
+                            </ul>
+                        </nav>
 						<div class="hdr-tna initialise" hidden>Delivered by <a href="/tna/"><span>The National Archives</span></a></div>
 					</div>
 				</details>

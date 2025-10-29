@@ -3,7 +3,7 @@
 			<nav aria-labelledby="websiteInformation">
 				<h2 id="websiteInformation" class="sr-only">Website information</h2>
 				<ul>
-					<li><a href="/tna/help-and-guidance.php">Help</a></li>
+					<li><a href="/tna/help-and-guidance.php">Help and guidance</a></li>
 					<li><a href="/tna/about-us.php">About Us</a></li>
 					<li><a href="#">Sitemap</a></li>
 					<li><a href="#">Accessibility</a></li>

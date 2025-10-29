@@ -35,17 +35,17 @@
 			<div class="narrow-lists">
 				<h3>Primary legislation</h3>
 				<ul>
-					<li><a href="#">UK Public General Acts</a></li>
-					<li><a href="#">UK Local Acts</a></li>
-					<li><a href="#">UK Private and Personal Acts</a></li>
+					<li><a href="search.php?type=ukpga">UK Public General Acts</a></li>
+					<li><a href="search.php?type=ukla">UK Local Acts</a></li>
+					<li><a href="search.php?type=ukppa">UK Private and Personal Acts</a></li>
 				</ul>
 				<h3>Secondary legislation</h3>
 				<ul>
-					<li><a href="#">UK Statutory Instruments</a></li>
-					<li><a href="#">UK Ministerial Directions</a></li>
-					<li><a href="#">UK Ministerial Orders</a></li>
-					<li><a href="#">UK Statutory Rules and Orders 1900-1948</a></li>
-					<li><a href="#">UK Draft Statutory Instruments</a></li>
+					<li><a href="search.php?type=uksi">UK Statutory Instruments</a></li>
+					<li><a href="search.php?type=ukmd">UK Ministerial Directions</a></li>
+					<li><a href="search.php?type=ukmo">UK Ministerial Orders</a></li>
+					<li><a href="search.php?type=uksro">UK Statutory Rules and Orders 1900-1948</a></li>
+					<li><a href="search.php?type=ukdsi">UK Draft Statutory Instruments</a></li>
 				</ul>
 			</div>
 			<h2>Legislation that may apply to the whole of the UK</h2>
@@ -53,31 +53,31 @@
 			<div class="narrow-lists">
 				<h3>Primary legislation</h3>
 				<ul>
-					<li><a href="#">Acts of the Scottish Parliament</a></li>
-					<li><a href="#">Acts of the Northern Ireland Assembly</a></li>
-					<li><a href="#">Acts of the Old Scottish Parliament 1424-1707</a></li>
-					<li><a href="#">Acts of the English Parliament 1267-1706</a></li>
-					<li><a href="#">Acts of the Old Irish Parliament 1495-1800</a></li>
-					<li><a href="#">Acts of the Parliament of Great Britain 1707-1800</a></li>
-					<li><a href="#">Local Acts of the Parliament of Great Britain 1797-1800</a></li>
-					<li><a href="#">Private and Personal Acts of the Parliament of Great Britain 1707-1800</a></li>
+					<li><a href="search.php?type=asp">Acts of the Scottish Parliament</a></li>
+					<li><a href="search.php?type=nia">Acts of the Northern Ireland Assembly</a></li>
+					<li><a href="search.php?type=aosp">Acts of the Old Scottish Parliament 1424-1707</a></li>
+					<li><a href="search.php?type=aep">Acts of the English Parliament 1267-1706</a></li>
+					<li><a href="search.php?type=aip">Acts of the Old Irish Parliament 1495-1800</a></li>
+					<li><a href="search.php?type=apgb">Acts of the Parliament of Great Britain 1707-1800</a></li>
+					<li><a href="search.php?type=gbla">Local Acts of the Parliament of Great Britain 1797-1800</a></li>
+					<li><a href="search.php?type=gbppa">Private and Personal Acts of the Parliament of Great Britain 1707-1800</a></li>
 				</ul>
 				<h3>Secondary legislation</h3>
 				<ul>
-					<li><a href="#">Northern Ireland Statutory Rules</a></li>
-					<li><a href="#">Acts of the National Assembly for Wales</a></li>
-					<li><a href="#">Acts of Senedd Cymru</a></li>
-					<li><a href="#">Measures of the National Assembly for Wales</a></li>
-					<li><a href="#">UK Church Measures</a></li>
-					<li><a href="#">Wales Statutory Instruments</a></li>
-					<li><a href="#">Scottish Statutory Instruments</a></li>
-					<li><a href="#">Northern Ireland Orders in Council</a></li>
-					<li><a href="#">Church Instruments</a></li>
-					<li><a href="#">Northern Ireland Assembly Measures 1974</a></li>
-					<li><a href="#">Acts of the Northern Ireland Parliament 1921-1972</a></li>
-					<li><a href="#">Northern Ireland Statutory Rules and Orders 1922-1973</a></li>
-					<li><a href="#">Northern Ireland Draft Statutory Rules</a></li>
-					<li><a href="#">Scottish Draft Statutory Instruments</a></li>
+					<li><a href="search.php?type=nisr">Northern Ireland Statutory Rules</a></li>
+					<li><a href="search.php?type=anaw">Acts of the National Assembly for Wales</a></li>
+					<li><a href="search.php?type=asc">Acts of Senedd Cymru</a></li>
+					<li><a href="search.php?type=mwa">Measures of the National Assembly for Wales</a></li>
+					<li><a href="search.php?type=ukcm">UK Church Measures</a></li>
+					<li><a href="search.php?type=wsi">Wales Statutory Instruments</a></li>
+					<li><a href="search.php?type=ssi">Scottish Statutory Instruments</a></li>
+					<li><a href="search.php?type=nisi">Northern Ireland Orders in Council</a></li>
+					<li><a href="search.php?type=ukci">Church Instruments</a></li>
+					<li><a href="search.php?type=mnia&year=1974">Measures of the Northern Ireland Assembly 1974</a></li>
+					<li><a href="search.php?type=apni">Acts of the Northern Ireland Parliament 1921-1972</a></li>
+					<li><a href="search.php?type=nisro">Northern Ireland Statutory Rules and Orders 1922-1973</a></li>
+					<li><a href="search.php?type=nidsr">Northern Ireland Draft Statutory Rules</a></li>
+					<li><a href="search.php?type=sdsi">Scottish Draft Statutory Instruments</a></li>
 				</ul>
 			</div>
 		</article>

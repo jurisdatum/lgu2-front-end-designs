@@ -40,7 +40,7 @@
 				</li>
 				<li>
 					<article>
-						<a class="icon_changes_to_legislation" href="#">
+						<a class="icon_changes_to_legislation" href="research-tools-changes-to-legislation.php">
 							<h3>Changes to legislation</h3>
 							<p>A search tool to find all changes made to or by specific pieces or types of legislation.</p>
 						</a>

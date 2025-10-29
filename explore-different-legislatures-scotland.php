@@ -35,13 +35,13 @@
 			<div class="narrow-lists">
 				<h3>Primary legislation</h3>
 				<ul>
-					<li><a href="#">Acts of the Scottish Parliament</a></li>
-					<li><a href="#">Acts of the Old Scottish Parliament 1424-1707</a></li>
+					<li><a href="search.php?type=asp">Acts of the Scottish Parliament</a></li>
+					<li><a href="search.php?type=aosp">Acts of the Old Scottish Parliament 1424-1707</a></li>
 				</ul>
 				<h3>Secondary legislation</h3>
 				<ul>
-					<li><a href="#">Scottish Statutory Instruments</a></li>
-					<li><a href="#">Scottish Draft Statutory Instruments</a></li>
+					<li><a href="search.php?type=ssi">Scottish Statutory Instruments</a></li>
+					<li><a href="search.php?type=sdsi">Scottish Draft Statutory Instruments</a></li>
 				</ul>
 			</div>
 			<h2>Legislation that may apply to Scotland</h2>
@@ -49,20 +49,20 @@
 			<div class="narrow-lists">
 				<h3>Primary legislation</h3>
 				<ul>
-					<li><a href="#">UK Public General Acts</a></li>
-					<li><a href="#">UK Local Acts</a></li>
-					<li><a href="#">UK Private and Personal Acts</a></li>
-					<li><a href="#">Acts of the English Parliament 1267-1706</a></li>
-					<li><a href="#">Acts of the Parliament of Great Britain 1707-1800</a></li>
-					<li><a href="#">Local Acts of the Parliament of Great Britain 1797-1800</a></li>
-					<li><a href="#">Private and Personal Acts of the Parliament of Great Britain 1707-1800</a></li>
+					<li><a href="search.php?type=ukpga">UK Public General Acts</a></li>
+					<li><a href="search.php?type=ukla">UK Local Acts</a></li>
+					<li><a href="search.php?type=ukppa">UK Private and Personal Acts</a></li>
+					<li><a href="search.php?type=aep">Acts of the English Parliament 1267-1706</a></li>
+					<li><a href="search.php?type=apgb">Acts of the Parliament of Great Britain 1707-1800</a></li>
+					<li><a href="search.php?type=gbla">Local Acts of the Parliament of Great Britain 1797-1800</a></li>
+					<li><a href="search.php?type=gbppa">Private and Personal Acts of the Parliament of Great Britain 1707-1800</a></li>
 				</ul>
 				<h3>Secondary legislation</h3>
 				<ul>
-					<li><a href="#">UK Statutory Instruments</a></li>
-					<li><a href="#">UK Ministerial Directions</a></li>
-					<li><a href="#">UK Statutory Rules and Orders 1900-1948</a></li>
-					<li><a href="#">UK Draft Statutory Instruments</a></li>
+					<li><a href="search.php?type=uksi">UK Statutory Instruments</a></li>
+					<li><a href="search.php?type=ukmd">UK Ministerial Directions</a></li>
+					<li><a href="search.php?type=uksro">UK Statutory Rules and Orders 1900-1948</a></li>
+					<li><a href="search.php?type=ukdsi">UK Draft Statutory Instruments</a></li>
 				</ul>
 			</div>
 		</article>

@@ -1,4 +1,7 @@
 @charset "UTF-8";
+body:not(:-moz-handler-blocked) fieldset {
+  display: table-cell;
+}
 /* Roboto font */
 @font-face {
   font-family: 'Roboto';
@@ -6,7 +9,7 @@
   font-weight: 100;
   font-stretch: normal;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/roboto/v48/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLoHRiA8.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/roboto/v49/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLoHRiA8.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Roboto';
@@ -14,7 +17,7 @@
   font-weight: 200;
   font-stretch: normal;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/roboto/v48/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLgHQiA8.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/roboto/v49/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLgHQiA8.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Roboto';
@@ -22,7 +25,7 @@
   font-weight: 300;
   font-stretch: normal;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/roboto/v48/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLt_QiA8.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/roboto/v49/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLt_QiA8.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Roboto';
@@ -30,7 +33,7 @@
   font-weight: 400;
   font-stretch: normal;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/roboto/v48/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLoHQiA8.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/roboto/v49/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLoHQiA8.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Roboto';
@@ -38,7 +41,7 @@
   font-weight: 500;
   font-stretch: normal;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/roboto/v48/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLrPQiA8.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/roboto/v49/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLrPQiA8.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Roboto';
@@ -46,7 +49,7 @@
   font-weight: 600;
   font-stretch: normal;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/roboto/v48/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLl_XiA8.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/roboto/v49/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLl_XiA8.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Roboto';
@@ -54,7 +57,7 @@
   font-weight: 700;
   font-stretch: normal;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/roboto/v48/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLmbXiA8.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/roboto/v49/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLmbXiA8.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Roboto';
@@ -62,7 +65,7 @@
   font-weight: 800;
   font-stretch: normal;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/roboto/v48/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLgHXiA8.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/roboto/v49/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLgHXiA8.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Roboto';
@@ -70,7 +73,7 @@
   font-weight: 900;
   font-stretch: normal;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/roboto/v48/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLijXiA8.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/roboto/v49/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLijXiA8.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Roboto';
@@ -78,7 +81,7 @@
   font-weight: 100;
   font-stretch: normal;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/roboto/v48/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbGmT.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/roboto/v49/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbGmT.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Roboto';
@@ -86,7 +89,7 @@
   font-weight: 200;
   font-stretch: normal;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/roboto/v48/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuZEbWmT.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/roboto/v49/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuZEbWmT.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Roboto';
@@ -94,7 +97,7 @@
   font-weight: 300;
   font-stretch: normal;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/roboto/v48/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuaabWmT.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/roboto/v49/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuaabWmT.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Roboto';
@@ -102,7 +105,7 @@
   font-weight: 400;
   font-stretch: normal;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/roboto/v48/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbWmT.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/roboto/v49/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbWmT.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Roboto';
@@ -110,7 +113,7 @@
   font-weight: 500;
   font-stretch: normal;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/roboto/v48/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWub2bWmT.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/roboto/v49/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWub2bWmT.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Roboto';
@@ -118,7 +121,7 @@
   font-weight: 600;
   font-stretch: normal;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/roboto/v48/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuYaammT.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/roboto/v49/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuYaammT.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Roboto';
@@ -126,7 +129,7 @@
   font-weight: 700;
   font-stretch: normal;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/roboto/v48/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuYjammT.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/roboto/v49/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuYjammT.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Roboto';
@@ -134,7 +137,7 @@
   font-weight: 800;
   font-stretch: normal;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/roboto/v48/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuZEammT.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/roboto/v49/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuZEammT.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Roboto';
@@ -142,7 +145,7 @@
   font-weight: 900;
   font-stretch: normal;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/roboto/v48/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuZtammT.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/roboto/v49/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuZtammT.ttf) format('truetype');
 }
 /* breakpoints */
 /* colours */
@@ -169,6 +172,8 @@
   --disabledModalText: #c8c8c8;
   --disabledButtonBorder: #8a8a8a;
   --disabledButtonBg: #ebebeb;
+  --activeBg: var(--searchBg);
+  --activeText: var(--contrastText);
   --alert: #ffaf28;
   --alertBg: rgba(255, 175, 40, 0.25);
   --warningText: #d2004b;
@@ -178,6 +183,7 @@
   --searchBg: rgba(0, 0, 0, 0.82);
   --searchText: var(--contrastText);
   --searchInput: var(--bg);
+  --hdrSearchInput: var(--bg);
   --searchInputBorder: transparent;
   --modalBg: var(--text);
   --modalText: var(--contrastText);
@@ -219,6 +225,20 @@
   --timelineEnactedVersionIconHover: url('images/timeline-enacted-version-active.png') no-repeat center;
   --timelineEnactedVersionIconActive: url('images/timeline-enacted-version-active.png') no-repeat center;
   --annotation: #af4bb4;
+}
+:root .search-results > section:first-of-type hgroup p a:after,
+:root[colour-scheme="light"] .search-results > section:first-of-type hgroup p a:after {
+  background: url(images/remove-filter-off.png) center no-repeat;
+  background-size: 100%;
+}
+:root .search-results > section:first-of-type hgroup p a:hover:after,
+:root[colour-scheme="light"] .search-results > section:first-of-type hgroup p a:hover:after,
+:root .search-results > section:first-of-type hgroup p a:focus:after,
+:root[colour-scheme="light"] .search-results > section:first-of-type hgroup p a:focus:after,
+:root .search-results > section:first-of-type hgroup p a:active:after,
+:root[colour-scheme="light"] .search-results > section:first-of-type hgroup p a:active:after {
+  background: url(images/remove-filter-on.png) center no-repeat;
+  background-size: 100%;
 }
 :root .icon-cards li a.icon_what_legislation_we_hold,
 :root[colour-scheme="light"] .icon-cards li a.icon_what_legislation_we_hold {
@@ -383,6 +403,16 @@
   background: url('images/in-force.png') no-repeat 0.125em 0.575em;
   background-size: 1.5em;
 }
+:root .legislation .legislation-content aside > div.confers-power,
+:root[colour-scheme="light"] .legislation .legislation-content aside > div.confers-power {
+  background: url('images/confers-power.png') no-repeat 0.25em 0.625em;
+  background-size: 1.1em;
+}
+:root .legislation .legislation-content aside > div.blanket-amendments,
+:root[colour-scheme="light"] .legislation .legislation-content aside > div.blanket-amendments {
+  background: url('images/blanket-amendments.png') no-repeat 0.15em 0.5em;
+  background-size: 1.45em;
+}
 :root .legislation .legislation-content aside > div.explanatory-notes,
 :root[colour-scheme="light"] .legislation .legislation-content aside > div.explanatory-notes {
   background: url('images/explanatory-notes.png') no-repeat 0.25em 0.6em;
@@ -479,6 +509,8 @@
   --disabledModalText: #c8c8c8;
   --disabledButtonBorder: #8a8a8a;
   --disabledButtonBg: #141414;
+  --activeBg: var(--searchBg);
+  --activeText: var(--contrastText);
   --alert: #ffaf28;
   --alertBg: #372d00;
   --warningText: #d2004b;
@@ -488,6 +520,7 @@
   --searchBg: rgba(255, 255, 255, 0.05);
   --searchText: var(--contrastText);
   --searchInput: rgba(255, 255, 255, 0.1);
+  --hdrSearchInput: #373e46;
   --searchInputBorder: rgba(255, 255, 255, 0.1);
   --modalBg: #0a141e;
   --modalText: var(--contrastText);
@@ -528,6 +561,16 @@
   --timelineEnactedVersionIconHover: url('images/timeline-enacted-version-active.png') no-repeat center;
   --timelineEnactedVersionIconActive: url('images/timeline-enacted-version.png') no-repeat center;
   --annotation: #c364c8;
+}
+:root[colour-scheme="dark"] .search-results > section:first-of-type hgroup p a:after {
+  background: url(images/remove-filter-off-dm.png) center no-repeat;
+  background-size: 100%;
+}
+:root[colour-scheme="dark"] .search-results > section:first-of-type hgroup p a:hover:after,
+:root[colour-scheme="dark"] .search-results > section:first-of-type hgroup p a:focus:after,
+:root[colour-scheme="dark"] .search-results > section:first-of-type hgroup p a:active:after {
+  background: url(images/remove-filter-on-dm.png) center no-repeat;
+  background-size: 100%;
 }
 :root[colour-scheme="dark"] .icon-cards li a.icon_what_legislation_we_hold {
   background-image: url('images/icon_what_legislation_we_hold-dm.png');
@@ -651,6 +694,14 @@
 :root[colour-scheme="dark"] .legislation .legislation-content aside > div.in-force {
   background: url('images/in-force-dm.png') no-repeat 0 0.575em;
   background-size: 1.5em;
+}
+:root[colour-scheme="dark"] .legislation .legislation-content aside > div.confers-power {
+  background: url('images/confers-power-dm.png') no-repeat 0.25em 0.625em;
+  background-size: 1.1em;
+}
+:root[colour-scheme="dark"] .legislation .legislation-content aside > div.blanket-amendments {
+  background: url('images/blanket-amendments-dm.png') no-repeat 0.15em 0.5em;
+  background-size: 1.45em;
 }
 :root[colour-scheme="dark"] .legislation .legislation-content aside > div.explanatory-notes {
   background: url('images/explanatory-notes-dm.png') no-repeat 0.125em 0.6em;
@@ -927,6 +978,78 @@ button:active,
   -webkit-box-shadow: 0 0 0.375rem 0 transparent;
   -moz-box-shadow: 0 0 0.375rem 0 transparent;
   box-shadow: 0 0 0.375rem 0 transparent;
+}
+.toggle {
+  list-style: none;
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+.toggle li a {
+  font-weight: 500;
+  color: var(--text);
+  cursor: pointer;
+  background-color: var(--buttonBg);
+  color: var(--buttonText);
+  border: 0.0625rem solid transparent;
+  padding: 0.5em 1.5em;
+  text-align: center;
+  background-color: transparent;
+  color: var(--buttonBg);
+  border: 0.0625rem solid var(--buttonBg);
+  position: relative;
+  display: block;
+  padding: 0.35em 0.65em;
+  border-radius: 0.1875rem;
+  font-weight: 300;
+  white-space: nowrap;
+}
+.toggle li a:focus,
+.toggle li a:hover {
+  background-color: var(--focusButtonBg);
+  color: var(--buttonText);
+  border-color: var(--focusOutline);
+  outline-color: var(--focusOutline);
+  outline-style: solid;
+  outline-width: 0.1rem;
+  text-decoration: none;
+  -webkit-box-shadow: 0 0 0.375rem 0 var(--focusShadow);
+  -moz-box-shadow: 0 0 0.375rem 0 var(--focusShadow);
+  box-shadow: 0 0 0.375rem 0 var(--focusShadow);
+}
+.toggle li a:active {
+  background-color: var(--focusButtonBg);
+  color: var(--buttonText);
+  border-color: var(--focusOutline);
+  outline-color: var(--focusOutline);
+  outline-style: solid;
+  outline-width: 0.1rem;
+  text-decoration: none;
+  -webkit-box-shadow: 0 0 0.375rem 0 var(--focusShadow);
+  -moz-box-shadow: 0 0 0.375rem 0 var(--focusShadow);
+  box-shadow: 0 0 0.375rem 0 var(--focusShadow);
+  background-color: var(--modalBg);
+  color: var(--modalText);
+}
+.toggle li a[aria-current="page"] {
+  padding: 0.35em 0.65em 0.35em 1.85em;
+  background: var(--activeBg);
+  color: var(--activeText);
+  border: 0.0625rem solid var(--activeBg);
+  font-weight: 500;
+}
+.toggle li a[aria-current="page"]:before {
+  position: absolute;
+  content: "";
+  margin: 0.5rem 0 0 -1.3em;
+  border-top: 0.175rem solid var(--activeText);
+  border-right: 0.175rem solid var(--activeText);
+  transform: rotate(135deg);
+  width: 0.65rem;
+  height: 0.225em;
+}
+[hidden] {
+  display: none;
 }
 summary {
   cursor: pointer;
@@ -1287,6 +1410,163 @@ summary::-webkit-details-marker {
   white-space: nowrap;
   border: 0;
 }
+.scrollbar-controls {
+  margin: -4rem 0 0 2.5rem;
+  padding: 0.5rem 0 3.5rem 0;
+  height: 2.5rem;
+  position: relative;
+  text-align: center;
+  display: flex;
+  width: calc(100% - 18.5rem);
+}
+.scrollbar-controls:before {
+  content: '';
+  position: absolute;
+  width: calc(100% - 1.875rem);
+  height: 0.25rem;
+  background: var(--timelineVersionActive);
+  display: block;
+  margin: 1.15rem 0.9375rem;
+}
+.scrollbar-controls h3 {
+  position: absolute;
+  width: 0.0625rem;
+  height: 0.0625rem;
+  padding: 0;
+  margin: -0.0625rem;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+.scrollbar-controls button {
+  width: 2.85rem;
+  position: relative;
+  margin: 0 0.9375rem 0 0.1rem;
+  padding: 0;
+  height: 2.5rem;
+}
+.scrollbar-controls button:after {
+  content: "";
+  display: inline-block;
+  margin: 0.15em 0 0.15em 0.35em;
+  width: 0.25em;
+  height: 0.25em;
+  border-style: solid;
+  border-top-width: 0.0625rem;
+  border-bottom-width: 0;
+  border-left-width: 0;
+  border-right-width: 0.0625rem;
+  border-color: var(--link);
+  transform: rotate(45deg);
+  margin: 0.15rem 0;
+  width: 0.35rem;
+  height: 0.35rem;
+  border-color: var(--buttonText);
+}
+.scrollbar-controls button:first-of-type {
+  margin: 0 0.1rem 0 0.9375rem;
+}
+.scrollbar-controls button:first-of-type:after {
+  margin: 0.15rem 0 0.15em 0.25rem;
+  border: 0;
+  border-bottom: 0.0625rem solid var(--buttonText);
+  border-left: 0.0625rem solid var(--buttonText);
+}
+.scrollbar-controls button:disabled {
+  background: var(--disabledButtonBorder);
+}
+.scrollbar-controls button span {
+  position: absolute;
+  width: 0.0625rem;
+  height: 0.0625rem;
+  padding: 0;
+  margin: -0.0625rem;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+.scrollbar-controls .drag-strip {
+  position: relative;
+  width: 100%;
+  height: 2.5rem;
+  padding: 0 0 0.0625rem 0;
+}
+.scrollbar-controls .drag-strip .drag {
+  margin: 0 0 -0.0625rem 0;
+  width: 5rem;
+  height: 2.5rem;
+  background: var(--buttonBg);
+  border-radius: 0.15em;
+  position: absolute !important;
+}
+.scrollbar-controls .drag-strip .drag:before {
+  content: "";
+  display: inline-block;
+  margin: 0.15em 0 0.15em 0.35em;
+  width: 0.25em;
+  height: 0.25em;
+  border-style: solid;
+  border-top-width: 0.0625rem;
+  border-bottom-width: 0;
+  border-left-width: 0;
+  border-right-width: 0.0625rem;
+  border-color: var(--link);
+  transform: rotate(45deg);
+  position: absolute;
+  left: 1rem;
+  margin: 1rem 0;
+  width: 0.35rem;
+  height: 0.35rem;
+  border: 0;
+  border-bottom: 0.0625rem solid var(--buttonText);
+  border-left: 0.0625rem solid var(--buttonText);
+}
+.scrollbar-controls .drag-strip .drag:after {
+  content: "";
+  display: inline-block;
+  margin: 0.15em 0 0.15em 0.35em;
+  width: 0.25em;
+  height: 0.25em;
+  border-style: solid;
+  border-top-width: 0.0625rem;
+  border-bottom-width: 0;
+  border-left-width: 0;
+  border-right-width: 0.0625rem;
+  border-color: var(--link);
+  transform: rotate(45deg);
+  position: absolute;
+  right: 1rem;
+  margin: 1rem 0;
+  width: 0.35rem;
+  height: 0.35rem;
+  border-color: var(--buttonText);
+}
+.scrollbar-controls .drag-strip .drag:hover,
+.scrollbar-controls .drag-strip .drag:focus {
+  background-color: var(--focusButtonBg);
+  color: var(--buttonText);
+  border-color: var(--focusOutline);
+  outline-color: var(--focusOutline);
+  outline-style: solid;
+  outline-width: 0.1rem;
+  text-decoration: none;
+  -webkit-box-shadow: 0 0 0.375rem 0 var(--focusShadow);
+  -moz-box-shadow: 0 0 0.375rem 0 var(--focusShadow);
+  box-shadow: 0 0 0.375rem 0 var(--focusShadow);
+}
+.scrollbar-controls .drag-strip .drag span {
+  position: absolute;
+  width: 0.0625rem;
+  height: 0.0625rem;
+  padding: 0;
+  margin: -0.0625rem;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
 /* navigation */
 nav ol,
 nav ul {
@@ -1460,10 +1740,17 @@ header .hdr-lang h3 {
   white-space: nowrap;
   border: 0;
 }
-header .hdr-lang a[aria-current="page"] {
+header .hdr-lang ul {
+  display: block;
+}
+header .hdr-lang ul li {
+  display: table-cell;
+  padding: 0;
+}
+header .hdr-lang ul li a[aria-current="page"] {
   font-weight: 500;
 }
-header .hdr-lang a[aria-current="page"] span {
+header .hdr-lang ul li a[aria-current="page"] span {
   position: absolute;
   width: 0.0625rem;
   height: 0.0625rem;
@@ -1510,6 +1797,11 @@ header .hdr-search form fieldset select {
   margin: 0 0 0.85em 0;
   width: 6.5em;
 }
+header .hdr-search form fieldset option,
+header .hdr-search form fieldset optgroup {
+  color: var(--text);
+  background: var(--hdrSearchInput);
+}
 header .hdr-search form fieldset input {
   padding: 0.75em 0.9em;
 }
@@ -1551,12 +1843,7 @@ footer {
 footer .section {
   padding: 1rem;
 }
-footer nav ul {
-  max-height: 8em;
-}
 footer nav ul li {
-  max-width: 45vw;
-  width: 14em;
   padding: 0 0 0.5em 0;
 }
 footer a {
@@ -2288,6 +2575,9 @@ main aside:not(.legislation aside, .search-filters) ul li article a h3 {
   display: contents;
   font-weight: 800;
 }
+.search-results > section:first-of-type hgroup h1 span span {
+  font-weight: 300;
+}
 .search-results > section:first-of-type hgroup p {
   margin: 0.25rem 0 0 0;
 }
@@ -2308,8 +2598,6 @@ main aside:not(.legislation aside, .search-filters) ul li article a h3 {
 .search-results > section:first-of-type hgroup p a:after {
   content: "";
   position: absolute;
-  background: url(images/remove-filter-off.png) center no-repeat;
-  background-size: 100%;
   width: 1rem;
   height: 1rem;
   right: 0.65rem;
@@ -2320,14 +2608,322 @@ main aside:not(.legislation aside, .search-filters) ul li article a h3 {
 .search-results > section:first-of-type hgroup p a:active {
   border-color: var(--link);
 }
-.search-results > section:first-of-type hgroup p a:hover:after,
-.search-results > section:first-of-type hgroup p a:focus:after,
-.search-results > section:first-of-type hgroup p a:active:after {
-  background: url(images/remove-filter-on.png) center no-repeat;
-  background-size: 100%;
-}
 .search-results > section:first-of-type hgroup p a span {
   font-weight: 500;
+}
+.search-results > section:first-of-type hgroup p > span {
+  margin: 0.35rem 0 0 0;
+  font-size: 1rem;
+  font-weight: 300;
+  border: 0.0625em solid var(--subtleBg);
+  background: var(--verySubtleBg);
+  padding: 0.125em 0.5em;
+  display: inline-block;
+  border-radius: 0.1875rem;
+  position: relative;
+}
+.search-results .dataset {
+  width: 100vW;
+}
+.search-results .dataset h2 {
+  font-size: 1.25rem;
+  margin: 0.15em 0;
+  font-weight: 700;
+}
+.search-results .dataset h2:first-letter {
+  text-transform: uppercase;
+}
+.search-results .dataset .skip-links a {
+  margin: 1rem 0 0 0;
+}
+.search-results .dataset > div:first-of-type {
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  margin: 1rem 0 0 0;
+  border-radius: 0.3rem;
+  -moz-box-shadow: 0 0 0.25rem var(--boxShadow);
+  -webkit-box-shadow: 0 0 0.25rem var(--boxShadow);
+  box-shadow: 0 0 0.25rem var(--boxShadow);
+  color: unset;
+}
+.search-results .dataset > div:first-of-type::-webkit-scrollbar {
+  margin: 0;
+  display: none;
+}
+.search-results .dataset > div:first-of-type > div {
+  position: relative;
+}
+.search-results .dataset > div:first-of-type > div:before {
+  content: "";
+  background: var(--moreSubtleBg);
+  width: 100%;
+  height: 1.75rem;
+  position: absolute;
+}
+.search-results .dataset > div:first-of-type > div:nth-of-type(odd) {
+  background: var(--moreSubtleBg);
+}
+.search-results .dataset > div:first-of-type > div h3 {
+  margin: 0;
+  font-size: 1.1rem;
+  position: sticky;
+  left: 0;
+  display: inline-block;
+}
+.search-results .dataset > div:first-of-type > div h3 a {
+  display: block;
+  padding: 0.35rem 0.5rem;
+}
+.search-results .dataset > div:first-of-type > div dl {
+  display: flex;
+  margin: 3.25rem 0 0 0;
+}
+.search-results .dataset > div:first-of-type > div dl div {
+  padding: 0 0.175rem;
+  position: relative;
+  height: 7.5rem;
+  width: 3.5rem;
+  text-align: center;
+  align-content: flex-end;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.search-results .dataset > div:first-of-type > div dl div dt:not(:has(> span)) {
+  border: 0.0625rem solid var(--link);
+  background: var(--link);
+  flex-grow: 1;
+  display: flex;
+  min-height: 1.5rem;
+  border-radius: 0.25rem 0.25rem 0 0;
+}
+.search-results .dataset > div:first-of-type > div dl div dt:not(:has(> span)) a {
+  flex-grow: 1;
+  align-content: flex-end;
+  color: var(--bg);
+}
+.search-results .dataset > div:first-of-type > div dl div dt:not(:has(> span)):has(a[aria-current="page"]) {
+  background: var(--text);
+  border-color: var(--text);
+}
+.search-results .dataset > div:first-of-type > div dl div dt:not(:has(> span)):has(> span) {
+  background: unset;
+}
+.search-results .dataset > div:first-of-type > div dl div dt:not(:has(> span)) a:hover,
+.search-results .dataset > div:first-of-type > div dl div dt:not(:has(> span)) a:focus {
+  background: var(--focusButtonBg);
+}
+.search-results .dataset > div:first-of-type > div dl div dd {
+  order: -1;
+  min-height: 1rem;
+  align-content: flex-end;
+  line-height: 1.35rem;
+  width: 100%;
+}
+.search-results .dataset > div:first-of-type > div dl span {
+  position: absolute;
+  width: 0.0625rem;
+  height: 0.0625rem;
+  padding: 0;
+  margin: -0.0625rem;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+.search-results .dataset > div:first-of-type > div dl.partial-dataset dt:not(:has(> span)),
+.search-results .dataset > div:first-of-type > div dl dt.partial-dataset {
+  border: 0.0625rem dashed var(--link);
+  background: var(--bg);
+  border-bottom: 0;
+}
+.search-results .dataset > div:first-of-type > div dl.partial-dataset dt:not(:has(> span)) a,
+.search-results .dataset > div:first-of-type > div dl dt.partial-dataset a {
+  color: var(--link);
+}
+.search-results .dataset > div:first-of-type > div dl.partial-dataset dt:not(:has(> span)) a:hover,
+.search-results .dataset > div:first-of-type > div dl dt.partial-dataset a:hover,
+.search-results .dataset > div:first-of-type > div dl.partial-dataset dt:not(:has(> span)) a:focus,
+.search-results .dataset > div:first-of-type > div dl dt.partial-dataset a:focus {
+  color: var(--bg);
+}
+.search-results .dataset > div:first-of-type > div dl.partial-dataset dt:not(:has(> span)):has(a[aria-current="page"]),
+.search-results .dataset > div:first-of-type > div dl dt.partial-dataset:has(a[aria-current="page"]) {
+  border-color: var(--bg);
+}
+.search-results .dataset > div:first-of-type > div dl.partial-dataset dt:not(:has(> span)):has(a[aria-current="page"]) a,
+.search-results .dataset > div:first-of-type > div dl dt.partial-dataset:has(a[aria-current="page"]) a {
+  color: var(--bg);
+}
+.search-results .dataset .scrollbar {
+  margin: -4rem 0 0 2.5rem;
+  padding: 0.5rem 0 3.5rem 0;
+  height: 2.5rem;
+  position: relative;
+  text-align: center;
+  display: flex;
+  width: calc(100% - 18.5rem);
+  margin: 0.5rem 0 0 0;
+  padding: 0;
+  width: 100%;
+}
+.search-results .dataset .scrollbar:before {
+  content: '';
+  position: absolute;
+  width: calc(100% - 1.875rem);
+  height: 0.25rem;
+  background: var(--timelineVersionActive);
+  display: block;
+  margin: 1.15rem 0.9375rem;
+}
+.search-results .dataset .scrollbar h3 {
+  position: absolute;
+  width: 0.0625rem;
+  height: 0.0625rem;
+  padding: 0;
+  margin: -0.0625rem;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+.search-results .dataset .scrollbar button {
+  width: 2.85rem;
+  position: relative;
+  margin: 0 0.9375rem 0 0.1rem;
+  padding: 0;
+  height: 2.5rem;
+}
+.search-results .dataset .scrollbar button:after {
+  content: "";
+  display: inline-block;
+  margin: 0.15em 0 0.15em 0.35em;
+  width: 0.25em;
+  height: 0.25em;
+  border-style: solid;
+  border-top-width: 0.0625rem;
+  border-bottom-width: 0;
+  border-left-width: 0;
+  border-right-width: 0.0625rem;
+  border-color: var(--link);
+  transform: rotate(45deg);
+  margin: 0.15rem 0;
+  width: 0.35rem;
+  height: 0.35rem;
+  border-color: var(--buttonText);
+}
+.search-results .dataset .scrollbar button:first-of-type {
+  margin: 0 0.1rem 0 0.9375rem;
+}
+.search-results .dataset .scrollbar button:first-of-type:after {
+  margin: 0.15rem 0 0.15em 0.25rem;
+  border: 0;
+  border-bottom: 0.0625rem solid var(--buttonText);
+  border-left: 0.0625rem solid var(--buttonText);
+}
+.search-results .dataset .scrollbar button:disabled {
+  background: var(--disabledButtonBorder);
+}
+.search-results .dataset .scrollbar button span {
+  position: absolute;
+  width: 0.0625rem;
+  height: 0.0625rem;
+  padding: 0;
+  margin: -0.0625rem;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+.search-results .dataset .scrollbar .drag-strip {
+  position: relative;
+  width: 100%;
+  height: 2.5rem;
+  padding: 0 0 0.0625rem 0;
+}
+.search-results .dataset .scrollbar .drag-strip .drag {
+  margin: 0 0 -0.0625rem 0;
+  width: 5rem;
+  height: 2.5rem;
+  background: var(--buttonBg);
+  border-radius: 0.15em;
+  position: absolute !important;
+}
+.search-results .dataset .scrollbar .drag-strip .drag:before {
+  content: "";
+  display: inline-block;
+  margin: 0.15em 0 0.15em 0.35em;
+  width: 0.25em;
+  height: 0.25em;
+  border-style: solid;
+  border-top-width: 0.0625rem;
+  border-bottom-width: 0;
+  border-left-width: 0;
+  border-right-width: 0.0625rem;
+  border-color: var(--link);
+  transform: rotate(45deg);
+  position: absolute;
+  left: 1rem;
+  margin: 1rem 0;
+  width: 0.35rem;
+  height: 0.35rem;
+  border: 0;
+  border-bottom: 0.0625rem solid var(--buttonText);
+  border-left: 0.0625rem solid var(--buttonText);
+}
+.search-results .dataset .scrollbar .drag-strip .drag:after {
+  content: "";
+  display: inline-block;
+  margin: 0.15em 0 0.15em 0.35em;
+  width: 0.25em;
+  height: 0.25em;
+  border-style: solid;
+  border-top-width: 0.0625rem;
+  border-bottom-width: 0;
+  border-left-width: 0;
+  border-right-width: 0.0625rem;
+  border-color: var(--link);
+  transform: rotate(45deg);
+  position: absolute;
+  right: 1rem;
+  margin: 1rem 0;
+  width: 0.35rem;
+  height: 0.35rem;
+  border-color: var(--buttonText);
+}
+.search-results .dataset .scrollbar .drag-strip .drag:hover,
+.search-results .dataset .scrollbar .drag-strip .drag:focus {
+  background-color: var(--focusButtonBg);
+  color: var(--buttonText);
+  border-color: var(--focusOutline);
+  outline-color: var(--focusOutline);
+  outline-style: solid;
+  outline-width: 0.1rem;
+  text-decoration: none;
+  -webkit-box-shadow: 0 0 0.375rem 0 var(--focusShadow);
+  -moz-box-shadow: 0 0 0.375rem 0 var(--focusShadow);
+  box-shadow: 0 0 0.375rem 0 var(--focusShadow);
+}
+.search-results .dataset .scrollbar .drag-strip .drag span {
+  position: absolute;
+  width: 0.0625rem;
+  height: 0.0625rem;
+  padding: 0;
+  margin: -0.0625rem;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+.search-results .dataset .scrollbar[hidden] {
+  display: none;
+}
+.search-results .dataset .scrollbar button {
+  margin: 0 0 0 0.1rem;
+}
+.search-results .dataset .scrollbar button:first-of-type {
+  margin: 0 0.1rem 0 0;
 }
 .search-results .search-content {
   padding: 0 1rem;
@@ -2457,9 +3053,8 @@ main aside:not(.legislation aside, .search-filters) ul li article a h3 {
 }
 .search-results .search-content .search-filters > details[open] > div section ul li[aria-current="page"] a {
   font-weight: 500;
-  color: var(--Text);
 }
-.search-results .search-content .search-filters > details[open] > div section ul li[aria-current="page"] a span {
+.search-results .search-content .search-filters > details[open] > div section ul li[aria-current="page"] a span:not(.long-type) {
   font-weight: 300;
 }
 .search-results .search-content .search-filters > details[open] > div section:not(:first-of-type) h3 {
@@ -2479,6 +3074,15 @@ main aside:not(.legislation aside, .search-filters) ul li article a h3 {
 }
 .search-results .search-content .search-filters > details[open] > div section.filter-subject > h4 {
   padding: 0.35rem 0 0 0;
+}
+.search-results .search-content .search-filters > details[open] > div section.filter-subject label {
+  display: block;
+  margin: 0.5rem 0 0.25rem 0;
+}
+.search-results .search-content .search-filters > details[open] > div section.filter-subject input {
+  display: block;
+  width: 22.5rem;
+  margin: 0 0 0.75rem 0;
 }
 .search-results .search-content .search-filters > details[open] > div section.filter-subject > ul {
   font-size: 0;
@@ -2578,6 +3182,17 @@ main aside:not(.legislation aside, .search-filters) ul li article a h3 {
   background-color: var(--disabledButtonBg);
   color: var(--text);
 }
+.search-results .search-content .search-filters > details[open] > div section.filter-subject > details .dynamic-subjects-results div {
+  position: absolute;
+  width: 0.0625rem;
+  height: 0.0625rem;
+  padding: 0;
+  margin: -0.0625rem;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
 .search-results .search-content .search-header {
   overflow: unset;
 }
@@ -2614,10 +3229,6 @@ main aside:not(.legislation aside, .search-filters) ul li article a h3 {
   padding: 0.65rem 0.25rem;
   line-height: 1.3rem;
 }
-.search-results .search-content .search-results-list ul:not(.skip-links) li:first-of-type {
-  padding: 0 0.25rem 0.65rem 0.25rem;
-  border: 0;
-}
 .search-results .search-content .search-results-list ul:not(.skip-links) li a {
   font-weight: 500;
 }
@@ -2627,6 +3238,11 @@ main aside:not(.legislation aside, .search-filters) ul li article a h3 {
 }
 .search-results .search-content .search-results-list ul:not(.skip-links) li span:nth-of-type(2) {
   color: var(--lightText);
+}
+.search-results .search-content .search-results-list h3 + ul:not(.skip-links) li:first-of-type,
+.search-results .search-content .search-results-list .skip-links + ul:not(.skip-links) li:first-of-type {
+  padding: 0 0.25rem 0.65rem 0.25rem;
+  border: 0;
 }
 .search-results .search-content .search-results-list ul.skip-links:first-of-type a {
   margin: -1rem 0 0 0;
@@ -2758,7 +3374,7 @@ main aside:not(.legislation aside, .search-filters) ul li article a h3 {
   gap: 0.85rem 1.15rem;
   width: calc(100% - 2rem);
   padding: 1.2rem 0;
-  border-top: 1px solid var(--subtleBorder);
+  border-top: 0.0625rem solid var(--subtleBorder);
 }
 .new-legislation > div section nav ul li {
   margin: 0;
@@ -2803,9 +3419,168 @@ main aside:not(.legislation aside, .search-filters) ul li article a h3 {
 .new-legislation-feeds .narrow-lists ul li ul {
   margin: 0 0 0 1.25rem;
 }
+/* changes to legislation page */
+.changes-to-legislation > section:has(form) {
+  background: var(--altBg);
+  max-width: unset;
+  padding: 0 1rem;
+}
+.changes-to-legislation > section:has(form) form {
+  padding: 2rem 1rem;
+  margin: 0 auto;
+  max-width: var(--maxWidth);
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 1.5em;
+}
+.changes-to-legislation > section:has(form) form fieldset {
+  background: var(--bg);
+  border-radius: 0.3rem;
+  -moz-box-shadow: 0 0 0.25rem var(--boxShadow);
+  -webkit-box-shadow: 0 0 0.25rem var(--boxShadow);
+  box-shadow: 0 0 0.25rem var(--boxShadow);
+  color: unset;
+  padding: 1.25rem;
+  position: relative;
+}
+.changes-to-legislation > section:has(form) form fieldset legend {
+  position: absolute;
+}
+.changes-to-legislation > section:has(form) form fieldset > label {
+  margin: 1.25rem 0 0.35rem 0;
+  display: block;
+}
+.changes-to-legislation > section:has(form) form fieldset > label:first-of-type {
+  margin: 2.5rem 0 0.35rem 0;
+}
+.changes-to-legislation > section:has(form) form fieldset > input[type="text"]:first-of-type,
+.changes-to-legislation > section:has(form) form fieldset select {
+  width: 100%;
+}
+.changes-to-legislation > section:has(form) form fieldset > input[type="text"]:last-of-type {
+  width: 4.5rem;
+}
+.changes-to-legislation > section:has(form) form fieldset [role="group"] {
+  display: flow-root;
+}
+.changes-to-legislation > section:has(form) form fieldset [role="group"] h3 {
+  margin: 1.25rem 0 0.35rem 0;
+  font-weight: 400;
+  font-size: 1rem;
+}
+.changes-to-legislation > section:has(form) form fieldset [role="group"] label {
+  display: inline-block;
+  float: left;
+  clear: both;
+  padding: 0.5em 0.75em;
+  line-height: 1.2rem;
+  border: 0.0625rem solid var(--link);
+  border-right: 0;
+  border-radius: 0.1875rem 0 0 0.1875rem;
+  background: var(--subtleBg);
+}
+.changes-to-legislation > section:has(form) form fieldset [role="group"] label:last-of-type {
+  margin: 0.75rem 0 0 0;
+}
+.changes-to-legislation > section:has(form) form fieldset [role="group"] input {
+  display: inline-block;
+  float: left;
+  width: 4rem;
+  border-left: 0;
+  padding: 0.5em 0.75em;
+  line-height: 1.2rem;
+  border-radius: 0 0.1875rem 0.1875rem 0;
+  clear: right;
+}
+.changes-to-legislation > section:has(form) form fieldset [role="group"] input:last-of-type {
+  margin: 0.75rem 0 0 0;
+}
+.changes-to-legislation > section:has(form) form fieldset:last-of-type legend:before {
+  content: "Show..." / "";
+  font-size: 1.625rem;
+  font-weight: 800;
+  line-height: 1.2em;
+  margin: 0 0 0.4em 0;
+}
+.changes-to-legislation > section:has(form) form fieldset:last-of-type legend span {
+  position: absolute;
+  width: 0.0625rem;
+  height: 0.0625rem;
+  padding: 0;
+  margin: -0.0625rem;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+.changes-to-legislation > section:has(form) form fieldset:last-of-type div {
+  padding: 0.8rem 1.25rem;
+  border-top: 0.0625rem solid transparent;
+  border-bottom: 0.0625rem solid transparent;
+}
+.changes-to-legislation > section:has(form) form fieldset:last-of-type div label {
+  margin: 0 0 0 1.65rem;
+  display: block;
+}
+.changes-to-legislation > section:has(form) form fieldset:last-of-type div label span {
+  font-weight: 500;
+}
+.changes-to-legislation > section:has(form) form fieldset:last-of-type div input {
+  position: absolute;
+  margin: 0.22rem 0 0 0;
+  width: 1rem;
+  height: 1rem;
+}
+.changes-to-legislation > section:has(form) form fieldset:last-of-type div:first-of-type {
+  margin: 3.75rem 0 0 0;
+}
+.changes-to-legislation > section:has(form) form fieldset:last-of-type div:nth-of-type(2) {
+  border-top-color: var(--subtleBg);
+}
+.changes-to-legislation > section:has(form) form fieldset:last-of-type div:has(input:checked) + div:nth-of-type(2) {
+  border-top-color: transparent;
+  border-bottom-color: var(--subtleBg);
+}
+.changes-to-legislation > section:has(form) form fieldset:last-of-type div:has(input:checked) {
+  background: var(--subtleBg);
+  border-top-color: var(--subtleBorder);
+  border-bottom-color: var(--subtleBorder);
+}
+.changes-to-legislation > section:has(form) form fieldset:has(input[type="radio"]) {
+  padding: 0;
+}
+.changes-to-legislation > section:has(form) form fieldset:has(input[type="radio"]) legend {
+  padding: 1.25rem;
+}
+.changes-to-legislation > section:has(form) form > div {
+  padding: 1.25rem;
+  background: var(--bg);
+  border-radius: 0.3rem;
+  -moz-box-shadow: 0 0 0.25rem var(--boxShadow);
+  -webkit-box-shadow: 0 0 0.25rem var(--boxShadow);
+  box-shadow: 0 0 0.25rem var(--boxShadow);
+  color: unset;
+}
+.changes-to-legislation > section:has(form) form > div span span {
+  font-weight: 500;
+}
+.changes-to-legislation > section:has(form) form > div p {
+  margin: 0.25rem 0 1rem 0;
+}
+.changes-to-legislation > section:has(form) form > div button {
+  width: 100%;
+}
+.changes-to-legislation > section:has(form) + section {
+  padding: 2rem 1rem;
+}
 /* legislation pages */
 .legislation section {
   overflow: unset;
+}
+.legislation section:has(h1) p {
+  margin: 0.75rem 0 0 0;
+  padding: 0.5rem 0 0 0;
+  border-top: 0.0625rem solid var(--lessSubtleBorder);
 }
 .legislation .legislation-navigation {
   text-align: center;
@@ -3284,6 +4059,76 @@ main aside:not(.legislation aside, .search-filters) ul li article a h3 {
 .legislation .legislation-content > aside > div.not-up-to-date button:focus {
   background: var(--focusWarningBg);
 }
+.legislation .legislation-content > aside > div.up-to-date ul {
+  list-style: none;
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin: 0.35rem 1em 0.5em 2em;
+}
+.legislation .legislation-content > aside > div.up-to-date ul li a {
+  font-weight: 500;
+  color: var(--text);
+  cursor: pointer;
+  background-color: var(--buttonBg);
+  color: var(--buttonText);
+  border: 0.0625rem solid transparent;
+  padding: 0.5em 1.5em;
+  text-align: center;
+  background-color: transparent;
+  color: var(--buttonBg);
+  border: 0.0625rem solid var(--buttonBg);
+  position: relative;
+  display: block;
+  padding: 0.35em 0.65em;
+  border-radius: 0.1875rem;
+  font-weight: 300;
+  white-space: nowrap;
+}
+.legislation .legislation-content > aside > div.up-to-date ul li a:focus,
+.legislation .legislation-content > aside > div.up-to-date ul li a:hover {
+  background-color: var(--focusButtonBg);
+  color: var(--buttonText);
+  border-color: var(--focusOutline);
+  outline-color: var(--focusOutline);
+  outline-style: solid;
+  outline-width: 0.1rem;
+  text-decoration: none;
+  -webkit-box-shadow: 0 0 0.375rem 0 var(--focusShadow);
+  -moz-box-shadow: 0 0 0.375rem 0 var(--focusShadow);
+  box-shadow: 0 0 0.375rem 0 var(--focusShadow);
+}
+.legislation .legislation-content > aside > div.up-to-date ul li a:active {
+  background-color: var(--focusButtonBg);
+  color: var(--buttonText);
+  border-color: var(--focusOutline);
+  outline-color: var(--focusOutline);
+  outline-style: solid;
+  outline-width: 0.1rem;
+  text-decoration: none;
+  -webkit-box-shadow: 0 0 0.375rem 0 var(--focusShadow);
+  -moz-box-shadow: 0 0 0.375rem 0 var(--focusShadow);
+  box-shadow: 0 0 0.375rem 0 var(--focusShadow);
+  background-color: var(--modalBg);
+  color: var(--modalText);
+}
+.legislation .legislation-content > aside > div.up-to-date ul li a[aria-current="page"] {
+  padding: 0.35em 0.65em 0.35em 1.85em;
+  background: var(--activeBg);
+  color: var(--activeText);
+  border: 0.0625rem solid var(--activeBg);
+  font-weight: 500;
+}
+.legislation .legislation-content > aside > div.up-to-date ul li a[aria-current="page"]:before {
+  position: absolute;
+  content: "";
+  margin: 0.5rem 0 0 -1.3em;
+  border-top: 0.175rem solid var(--activeText);
+  border-right: 0.175rem solid var(--activeText);
+  transform: rotate(135deg);
+  width: 0.65rem;
+  height: 0.225em;
+}
 .legislation .legislation-content > aside details {
   margin: 0.5rem 0.25rem 0.65rem 0.25rem;
 }
@@ -3600,7 +4445,13 @@ main aside:not(.legislation aside, .search-filters) ul li article a h3 {
   padding: 1.25rem 0;
 }
 .legislation .legislation-content > div .toc-detail {
-  padding: 0 1rem 1rem 0;
+  padding: 0 0 1rem 0;
+}
+.legislation .legislation-content > div .toc-detail .status-panel {
+  margin: 0 0 1rem 0;
+}
+.legislation .legislation-content > div .toc-detail:has(button) .status-panel {
+  margin: 0 0 0.25rem 0;
 }
 .legislation .legislation-content > div .toc-detail h3,
 .legislation .legislation-content > div .toc-detail h4,
@@ -3631,6 +4482,14 @@ main aside:not(.legislation aside, .search-filters) ul li article a h3 {
 .legislation .legislation-content > div .toc-detail ul li::marker,
 .legislation .legislation-content > div .toc-detail ol li::marker {
   color: var(--link);
+}
+.legislation .legislation-content > div .toc-detail ul li[value="0"]::marker,
+.legislation .legislation-content > div .toc-detail ol li[value="0"]::marker {
+  display: none;
+}
+.legislation .legislation-content > div .toc-detail ul li[value="0"] .prefix,
+.legislation .legislation-content > div .toc-detail ol li[value="0"] .prefix {
+  display: none;
 }
 .legislation .legislation-content > div .toc-detail ul li .extent,
 .legislation .legislation-content > div .toc-detail ol li .extent {
@@ -3770,6 +4629,10 @@ main aside:not(.legislation aside, .search-filters) ul li article a h3 {
 .legislation .legislation-content > div .toc-detail ol ul {
   margin: 0.5rem 0 0 0.75rem;
 }
+.legislation .legislation-content > div .toc-detail > ul,
+.legislation .legislation-content > div .toc-detail > ol {
+  margin: 0.5rem 1rem 0 1rem;
+}
 .legislation .legislation-content > div .toc-detail button {
   background: transparent;
   padding: 0.75rem 1rem 0.75rem 2rem;
@@ -3810,19 +4673,27 @@ main aside:not(.legislation aside, .search-filters) ul li article a h3 {
   border: unset;
 }
 .legislation .legislation-content > div .toc-detail details summary {
-  display: block;
   padding: 0 1rem 0.5rem 0;
-  height: 100%;
-  min-width: 3.5rem;
   border-color: transparent;
   color: var(--link);
 }
 .legislation .legislation-content > div .toc-detail details summary:before {
   position: absolute;
-  margin: -0.2rem 0 0 -2rem;
+  margin: -1.4rem 0 0 -2rem;
   content: "";
   width: 1.5rem;
   height: 1.5rem;
+}
+.legislation .legislation-content > div .toc-detail details summary span {
+  position: absolute;
+  width: 0.0625rem;
+  height: 0.0625rem;
+  padding: 0;
+  margin: -0.0625rem;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
 }
 .legislation .legislation-content > div .toc-detail details ol,
 .legislation .legislation-content > div .toc-detail details ul {
@@ -3832,11 +4703,21 @@ main aside:not(.legislation aside, .search-filters) ul li article a h3 {
 .legislation .legislation-content > div .toc-detail details ul:has(details) {
   margin: 0.5rem 0 0 1rem;
 }
-.legislation .legislation-content > div .toc-detail details:has(details) > summary {
-  padding: 0 1rem 0.5rem 0;
-}
 .legislation .legislation-content > div .toc-detail:not(:has(details)) button {
   display: none;
+}
+.legislation .legislation-content > div .confers-power,
+.legislation .legislation-content > div .blanket-amendments {
+  padding: 0 0 1rem 0;
+}
+.legislation .legislation-content > div .confers-power ul,
+.legislation .legislation-content > div .blanket-amendments ul {
+  list-style: none;
+  margin: 0;
+}
+.legislation .legislation-content > div .confers-power ul li,
+.legislation .legislation-content > div .blanket-amendments ul li {
+  margin: 0 0 1em 0;
 }
 .legislation .legislation-content > div .status-panel-anchor {
   width: 5rem;
@@ -3915,10 +4796,10 @@ main aside:not(.legislation aside, .search-filters) ul li article a h3 {
   background-image: url('images/pin-on.png');
 }
 .legislation .legislation-content > div .status-panel > div {
-  padding: 0.5rem 1rem 0 1rem;
+  padding: 0.5rem 1rem;
   position: relative;
   background: var(--verySubtleFixedBg);
-  border-left: 0.45rem solid var(--warningBg);
+  border-left: 0.45rem solid var(--activeBg);
 }
 .legislation .legislation-content > div .status-panel > div h2 {
   position: unset;
@@ -3963,10 +4844,13 @@ main aside:not(.legislation aside, .search-filters) ul li article a h3 {
   white-space: nowrap;
   border: 0;
 }
+.legislation .legislation-content > div .status-panel > div:has(button) {
+  padding: 0.5rem 1rem 0 1rem;
+}
 .legislation .legislation-content > div .status-panel details {
   margin: 0 0 1em 0;
   background: var(--verySubtleFixedBg);
-  border-left: 0.45rem solid var(--warningBg);
+  border-left: 0.45rem solid var(--activeBg);
   timeline-scope: --scroll;
   animation: --scroll forwards;
   animation-timeline: --scroll;
@@ -4062,6 +4946,27 @@ main aside:not(.legislation aside, .search-filters) ul li article a h3 {
     bottom: 0;
   }
 }
+.legislation .legislation-content > div .status-panel.not-up-to-date > div,
+.legislation .legislation-content > div .status-panel.not-up-to-date details {
+  border-left-color: var(--warningBg);
+}
+.legislation:not(:has(.pit-search)) .legislation-navigation {
+  position: relative;
+}
+.legislation:not(:has(.pit-search)) .legislation-navigation:after {
+  position: relative;
+  content: "";
+  height: 0.4rem;
+  overflow: hidden;
+  display: block;
+  margin: 0 0 -0.4rem 0;
+  z-index: 10;
+  background: var(--altBg);
+  background: linear-gradient(0deg, var(--dropShadowStart) 0%, var(--dropShadowEnd) 100%);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
 .compact-search {
   position: unset;
 }
@@ -4110,7 +5015,17 @@ main aside:not(.legislation aside, .search-filters) ul li article a h3 {
   min-width: 16rem;
 }
 /* breakpoints */
-@media (max-width: calc(768px - 1px)) {
+@media only screen and (min-width: calc(450px)) and (max-width: calc(768px - 1px)) {
+  main.legislation .legislation-content > div .confers-power ul:has(li:nth-of-type(1)),
+  main.legislation .legislation-content > div .blanket-amendments ul:has(li:nth-of-type(1)) {
+    columns: 0 1;
+  }
+  main.legislation .legislation-content > div .confers-power ul:has(li:nth-of-type(11)),
+  main.legislation .legislation-content > div .blanket-amendments ul:has(li:nth-of-type(11)) {
+    columns: 0 2;
+  }
+}
+@media only screen and (max-width: calc(768px - 1px)) {
   /* main menu and timeline act as modal */
   body:has(.hdr-menu details[open]) *:not(:has(.hdr-menu)):not(.hdr-menu):not(.hdr-menu *) {
     display: none;
@@ -4118,12 +5033,12 @@ main aside:not(.legislation aside, .search-filters) ul li article a h3 {
   header {
     background: var(--hdrBg);
   }
-  header .top-menu {
+  header section > nav {
     display: flex;
     flex-wrap: wrap;
     overflow: auto;
   }
-  header .top-menu .hdr-tna {
+  header section > nav .hdr-tna {
     display: none;
   }
   header a.hdr-home {
@@ -4131,6 +5046,9 @@ main aside:not(.legislation aside, .search-filters) ul li article a h3 {
     margin: 0.85em auto;
     padding: 0.15em 0.25em;
     text-align: center;
+    font-weight: 300;
+  }
+  header a.hdr-home [aria-current="page"] {
     font-weight: 300;
   }
   header .hdr-menu > summary {
@@ -4321,17 +5239,16 @@ main aside:not(.legislation aside, .search-filters) ul li article a h3 {
     flex-grow: 1;
     margin: 0.75em 0 0 0;
   }
-  header .hdr-menu:has(details[open]) .hdr-lang a {
+  header .hdr-menu:has(details[open]) .hdr-lang ul li a {
     border-radius: 0.25rem 0 0 0.25rem;
     border: 0.0625rem solid var(--modalButtonBorder);
     padding: 0.35em 1.35em;
   }
-  header .hdr-menu:has(details[open]) .hdr-lang a[aria-current="page"] {
+  header .hdr-menu:has(details[open]) .hdr-lang ul li a[aria-current="page"] {
     background: var(--modalButtonBg);
     color: var(--modalButtonText);
   }
-  header .hdr-menu:has(details[open]) .hdr-lang a[aria-current="page"] + a,
-  header .hdr-menu:has(details[open]) .hdr-lang a + a[aria-current="page"] {
+  header .hdr-menu:has(details[open]) .hdr-lang ul li:nth-child(2) a {
     border-radius: 0 0.25rem 0.25rem 0;
     padding: 0.35em 1.35em;
   }
@@ -4404,7 +5321,7 @@ main aside:not(.legislation aside, .search-filters) ul li article a h3 {
     background-image: url('images/search-active.png');
   }
 }
-@media (min-width: calc(768px)) and (max-width: calc(1024px - 1px)) {
+@media print and (orientation: portrait), screen and (min-width: calc(768px)) and (max-width: calc(1024px - 1px)) {
   /* timeline and metadata on same row */
   main.legislation:has(.timeline details:not([open])) .timeline {
     margin: 0 1rem;
@@ -4455,6 +5372,12 @@ main aside:not(.legislation aside, .search-filters) ul li article a h3 {
     background-position: 0.85em 0.55em;
   }
   main.legislation:has(.timeline details:not([open])) .legislation-content > aside:first-of-type > div.in-force {
+    background-position: 0.85em 0.55em;
+  }
+  main.legislation:has(.timeline details:not([open])) .legislation-content > aside:first-of-type > div.confers-power {
+    background-position: 1em 0.55em;
+  }
+  main.legislation:has(.timeline details:not([open])) .legislation-content > aside:first-of-type > div.blanket-amendments {
     background-position: 0.85em 0.55em;
   }
   main.legislation:has(.timeline details:not([open])) .legislation-content > aside:first-of-type > div p {
@@ -4527,12 +5450,14 @@ main aside:not(.legislation aside, .search-filters) ul li article a h3 {
     margin: 0;
   }
 }
-@media (max-width: calc(1024px - 1px)) {
+@media screen and (max-width: calc(1024px - 1px)) {
   /* main menu and timeline act as modal */
   body:has(.timeline details[open]) *:not(:has(.timeline)):not(.timeline):not(.timeline *),
   body:has(.search-filters > details[open]) *:not(:has(.search-filters)):not(.search-filters):not(.search-filters *) {
     display: none;
   }
+}
+@media print and (orientation: portrait), screen and (max-width: calc(1024px - 1px)) {
   main.legislation .timeline > summary {
     font-weight: 500;
     color: var(--text);
@@ -4928,6 +5853,15 @@ main aside:not(.legislation aside, .search-filters) ul li article a h3 {
     max-height: 20vh;
   }
 }
+@media (min-width: 350px) {
+  footer nav ul {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 0.5rem;
+  }
+}
 @media (min-width: 450px) {
   :root a.hdr-home,
   :root[colour-scheme="light"] a.hdr-home {
@@ -5037,6 +5971,21 @@ main aside:not(.legislation aside, .search-filters) ul li article a h3 {
     text-align: right;
     margin: 0 0 1rem 0;
   }
+  main.changes-to-legislation > section:has(form) form fieldset [role="group"] label {
+    clear: none;
+  }
+  main.changes-to-legislation > section:has(form) form fieldset [role="group"] label:last-of-type {
+    margin: 0 0 0 1.25rem;
+  }
+  main.changes-to-legislation > section:has(form) form fieldset [role="group"] input {
+    clear: none;
+  }
+  main.changes-to-legislation > section:has(form) form fieldset [role="group"] input:last-of-type {
+    margin: 0;
+  }
+  main.changes-to-legislation > section:has(form) form > div button {
+    width: unset;
+  }
 }
 @media (min-width: 510px) {
   header .hdr-search form fieldset select {
@@ -5050,6 +5999,15 @@ main aside:not(.legislation aside, .search-filters) ul li article a h3 {
   }
 }
 @media (min-width: 700px) {
+  footer nav ul {
+    display: inline-flex;
+    flex-flow: column wrap;
+    max-height: 8em;
+  }
+  footer nav ul li {
+    max-width: 45vw;
+    width: 14em;
+  }
   main > section:has(.in-page-nav) ol,
   main > article:has(.in-page-nav) ol {
     display: grid;
@@ -5098,6 +6056,10 @@ main aside:not(.legislation aside, .search-filters) ul li article a h3 {
   main.legislation .legislation-content .toc-detail ul ol {
     margin: 0.5rem 0 0 2rem;
   }
+  main.legislation .legislation-content .toc-detail > ul,
+  main.legislation .legislation-content .toc-detail > ol {
+    margin: 0.5rem 1rem 0 2rem;
+  }
   main.legislation .legislation-content .toc-detail details ol,
   main.legislation .legislation-content .toc-detail details ul {
     margin: 0 0 0.75rem 1.75rem;
@@ -5107,7 +6069,7 @@ main aside:not(.legislation aside, .search-filters) ul li article a h3 {
     margin: 0.5rem 0 0 2.5rem;
   }
 }
-@media (min-width: 768px) {
+@media print, screen and (min-width: 768px) {
   :root header:has(.hdr-search details[open]) .hdr-search summary,
   :root[colour-scheme="light"] header:has(.hdr-search details[open]) .hdr-search summary,
   :root[colour-scheme="dark"] header:has(.hdr-search details[open]) .hdr-search summary {
@@ -5127,27 +6089,27 @@ main aside:not(.legislation aside, .search-filters) ul li article a h3 {
   header a {
     font-weight: 300;
   }
-  header .top-menu {
+  header section > nav {
     margin: 0.4rem 0 0 0;
     min-height: 4.6rem;
   }
-  header .top-menu a.hdr-home {
+  header section > nav a.hdr-home {
     margin: 0;
     padding: 0.9em 0.25em 0.65em 2.5em;
     font-size: 2rem;
     position: absolute;
   }
-  header .top-menu .hdr-tna {
+  header section > nav .hdr-tna {
     float: right;
     padding: 0.3rem 0 1.05em 0;
     font-size: 0.7rem;
     font-weight: 500;
     text-transform: lowercase;
   }
-  header .top-menu .hdr-tna a {
+  header section > nav .hdr-tna a {
     padding: 0 15rem 2.05rem 0;
   }
-  header .top-menu .hdr-tna span {
+  header section > nav .hdr-tna span {
     position: absolute;
     width: 0.0625rem;
     height: 0.0625rem;
@@ -5182,13 +6144,13 @@ main aside:not(.legislation aside, .search-filters) ul li article a h3 {
     overflow: auto;
     margin: 0 0 0.725em 0;
   }
-  header .hdr-menu:has(details[open]) .hdr-links nav ul {
+  header .hdr-menu:has(details[open]) .hdr-links .main-menu ul {
     flex-direction: row;
   }
-  header .hdr-menu:has(details[open]) .hdr-links nav ul li {
+  header .hdr-menu:has(details[open]) .hdr-links .main-menu ul li {
     padding: 0;
   }
-  header .hdr-menu:has(details[open]) .hdr-links nav ul li:not(:last-of-type) {
+  header .hdr-menu:has(details[open]) .hdr-links .main-menu ul li:not(:last-of-type) {
     padding: 0 0.7em 0 0;
     margin: 0 0.7em 0 0;
     border-right: 0.0625rem solid var(--midDark);
@@ -5196,14 +6158,10 @@ main aside:not(.legislation aside, .search-filters) ul li article a h3 {
   header .hdr-menu:has(details[open]) .hdr-lang {
     float: right;
   }
-  header .hdr-menu:has(details[open]) .hdr-lang a[aria-current="page"] + a,
-  header .hdr-menu:has(details[open]) .hdr-lang a + a[aria-current="page"] {
+  header .hdr-menu:has(details[open]) .hdr-lang ul li:last-of-type a {
     border-left: 0.0625rem solid var(--midDark);
-    margin: 0 0 0 0.35em;
-    padding: 0 0 0 0.5em;
-  }
-  header .hdr-menu:has(details[open]) .hdr-lang a + a[aria-current="page"] {
     margin: 0 0 0 0.5em;
+    padding: 0 0 0 0.5em;
   }
   header .hdr-menu:has(details[open]) .hdr-tna {
     display: none;
@@ -5246,7 +6204,7 @@ main aside:not(.legislation aside, .search-filters) ul li article a h3 {
     top: 2.25rem;
     right: 1rem;
   }
-  header:has(details[open]) .top-menu .hdr-tna {
+  header:has(details[open]) section > nav .hdr-tna {
     display: none;
   }
   footer nav {
@@ -5288,6 +6246,9 @@ main aside:not(.legislation aside, .search-filters) ul li article a h3 {
     grid-column: span 2;
     margin: 0;
   }
+  main .whats-new section.articles ul li:last-of-type:not(:nth-of-type(even)) article {
+    width: -webkit-fill-available;
+  }
   main.home section.regions ul {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
@@ -5317,25 +6278,58 @@ main aside:not(.legislation aside, .search-filters) ul li article a h3 {
   main.legislation .legislation-navigation {
     margin: 0 1rem;
   }
+  main.legislation .legislation-content > div .confers-power ul:has(li:nth-of-type(1)),
+  main.legislation .legislation-content > div .blanket-amendments ul:has(li:nth-of-type(1)) {
+    columns: 0 1;
+  }
+  main.legislation .legislation-content > div .confers-power ul:has(li:nth-of-type(21)),
+  main.legislation .legislation-content > div .blanket-amendments ul:has(li:nth-of-type(21)) {
+    columns: 0 2;
+  }
+  main.legislation .legislation-content > div .confers-power ul:has(li:nth-of-type(41)),
+  main.legislation .legislation-content > div .blanket-amendments ul:has(li:nth-of-type(41)) {
+    columns: 0 3;
+  }
   main.legislation .legislation-content > div .legislation-ftr nav {
     padding: 0;
   }
   main.legislation .legislation-content .toc-detail ol:has( > li > .extent:not(.hidden)) {
     margin: 0 0 0.75rem 11.5rem;
   }
-  main.legislation .legislation-content .toc-detail ol:has( > li > .extent:not(.hidden)) li:has( > .extent:not(.hidden)) {
+  main.legislation .legislation-content .toc-detail ol:has( > li > .extent:not(.hidden)) .extent {
+    margin: 0 0 0 -13.25rem;
+  }
+  main.legislation .legislation-content .toc-detail ul:has( > li > .extent:not(.hidden)) {
+    margin: 0.5rem 0 0 8.5rem;
+  }
+  main.legislation .legislation-content .toc-detail ul:has( > li > .extent:not(.hidden)) .extent {
+    margin: 0 0 0 -10.25rem;
+  }
+  main.legislation .legislation-content .toc-detail ol:has( > li > .extent:not(.hidden)) li:has( > .extent:not(.hidden)),
+  main.legislation .legislation-content .toc-detail ul:has( > li > .extent:not(.hidden)) li:has( > .extent:not(.hidden)) {
     position: relative;
   }
-  main.legislation .legislation-content .toc-detail ol:has( > li > .extent:not(.hidden)) li:has( > .extent:not(.hidden)) .extent {
+  main.legislation .legislation-content .toc-detail ol:has( > li > .extent:not(.hidden)) li:has( > .extent:not(.hidden)) .extent,
+  main.legislation .legislation-content .toc-detail ul:has( > li > .extent:not(.hidden)) li:has( > .extent:not(.hidden)) .extent {
     position: absolute;
     width: 8rem;
-    margin: 0 0 0 -13.25rem;
     justify-content: right;
     top: 0;
     left: 0;
   }
+  main.changes-to-legislation > section:has(form) form {
+    grid-template-columns: calc(50% - 0.75rem) calc(50% - 0.75rem);
+  }
+  main.changes-to-legislation > section:has(form) form > fieldset:last-of-type {
+    grid-column-start: span 2;
+    grid-column-end: 3;
+  }
+  main.changes-to-legislation > section:has(form) form > div {
+    grid-column-start: span 2;
+    grid-column-end: 3;
+  }
 }
-@media (min-width: 1024px) {
+@media print and (orientation: landscape), screen and (min-width: 1024px) {
   html {
     --maxWidth: 1024px;
   }
@@ -5344,77 +6338,68 @@ main aside:not(.legislation aside, .search-filters) ul li article a h3 {
     background: url("images/tna-logo.png") no-repeat;
     background-size: 100%;
   }
-  :root .legislation .legislation-content aside > div.up-to-date,
-  :root[colour-scheme="light"] .legislation .legislation-content aside > div.up-to-date {
-    background-position: 0.7em 0.6em;
-    background-size: 1.6em;
-  }
-  :root .legislation .legislation-content aside > div.extent,
-  :root[colour-scheme="light"] .legislation .legislation-content aside > div.extent {
-    background-position: 0.5em 0.6em;
-    background-size: 2em;
-  }
-  :root .legislation .legislation-content aside > div.in-force,
-  :root[colour-scheme="light"] .legislation .legislation-content aside > div.in-force {
-    background-position: 0.65em 0.6em;
-    background-size: 1.8em;
-  }
-  :root .legislation .legislation-content aside > div.explanatory-notes,
-  :root[colour-scheme="light"] .legislation .legislation-content aside > div.explanatory-notes {
-    background-position: 0.6em 0.5em;
-    background-size: 1.6em;
-  }
-  :root .legislation .legislation-content aside > div.associated-documents,
-  :root[colour-scheme="light"] .legislation .legislation-content aside > div.associated-documents {
-    background-position: 0.65em 0.5em;
-    background-size: 1.5em;
-  }
-  :root .legislation .legislation-content aside > div:has(p).explanatory-notes,
-  :root[colour-scheme="light"] .legislation .legislation-content aside > div:has(p).explanatory-notes {
-    background-position: 0.65em 0.6em;
-    background-size: 1.6em;
-  }
-  :root .legislation .legislation-content aside > div:has(p).associated-documents,
-  :root[colour-scheme="light"] .legislation .legislation-content aside > div:has(p).associated-documents {
-    background-position: 0.55em 0.6em;
-    background-size: 1.8em;
-  }
   :root[colour-scheme="dark"] .hdr-tna a {
     background: url("images/tna-logo-dm.png") no-repeat;
     background-size: 100%;
   }
+  :root .legislation .legislation-content aside > div.up-to-date,
+  :root[colour-scheme="light"] .legislation .legislation-content aside > div.up-to-date,
   :root[colour-scheme="dark"] .legislation .legislation-content aside > div.up-to-date {
     background-position: 0.7em 0.6em;
     background-size: 1.6em;
   }
+  :root .legislation .legislation-content aside > div.extent,
+  :root[colour-scheme="light"] .legislation .legislation-content aside > div.extent,
   :root[colour-scheme="dark"] .legislation .legislation-content aside > div.extent {
     background-position: 0.5em 0.6em;
     background-size: 2em;
   }
+  :root .legislation .legislation-content aside > div.in-force,
+  :root[colour-scheme="light"] .legislation .legislation-content aside > div.in-force,
   :root[colour-scheme="dark"] .legislation .legislation-content aside > div.in-force {
     background-position: 0.65em 0.6em;
     background-size: 1.8em;
   }
+  :root .legislation .legislation-content aside > div.confers-power,
+  :root[colour-scheme="light"] .legislation .legislation-content aside > div.confers-power,
+  :root[colour-scheme="dark"] .legislation .legislation-content aside > div.confers-power {
+    background-position: 0.85em 0.625em;
+    background-size: 1.35em;
+  }
+  :root .legislation .legislation-content aside > div.blanket-amendments,
+  :root[colour-scheme="light"] .legislation .legislation-content aside > div.blanket-amendments,
+  :root[colour-scheme="dark"] .legislation .legislation-content aside > div.blanket-amendments {
+    background-position: 0.45em 0.675em;
+    background-size: 2em;
+  }
+  :root .legislation .legislation-content aside > div.explanatory-notes,
+  :root[colour-scheme="light"] .legislation .legislation-content aside > div.explanatory-notes,
   :root[colour-scheme="dark"] .legislation .legislation-content aside > div.explanatory-notes {
     background-position: 0.6em 0.5em;
     background-size: 1.6em;
   }
+  :root .legislation .legislation-content aside > div.associated-documents,
+  :root[colour-scheme="light"] .legislation .legislation-content aside > div.associated-documents,
   :root[colour-scheme="dark"] .legislation .legislation-content aside > div.associated-documents {
     background-position: 0.65em 0.5em;
     background-size: 1.5em;
   }
+  :root .legislation .legislation-content aside > div:has(p).explanatory-notes,
+  :root[colour-scheme="light"] .legislation .legislation-content aside > div:has(p).explanatory-notes,
   :root[colour-scheme="dark"] .legislation .legislation-content aside > div:has(p).explanatory-notes {
     background-position: 0.65em 0.6em;
     background-size: 1.6em;
   }
+  :root .legislation .legislation-content aside > div:has(p).associated-documents,
+  :root[colour-scheme="light"] .legislation .legislation-content aside > div:has(p).associated-documents,
   :root[colour-scheme="dark"] .legislation .legislation-content aside > div:has(p).associated-documents {
     background-position: 0.55em 0.6em;
     background-size: 1.8em;
   }
-  header:has(.hdr-menu details[open]) .top-menu .hdr-tna {
+  header:has(.hdr-menu details[open]) section > nav .hdr-tna {
     display: block;
   }
-  header:has(.hdr-menu details[open]) nav {
+  header:has(.hdr-menu details[open]) .hdr-links .main-menu {
     float: left;
   }
   header .hdr-lang {
@@ -5694,6 +6679,7 @@ main aside:not(.legislation aside, .search-filters) ul li article a h3 {
     width: 13.5rem;
   }
   main.legislation .timeline:has(details:not([open])) summary > span:after {
+    border-color: transparent;
     border-bottom: 0.1rem solid var(--buttonText);
     border-left: 0.1rem solid var(--buttonText);
     margin: calc(50% - 0.75rem) -1.35rem;
@@ -5804,6 +6790,7 @@ main aside:not(.legislation aside, .search-filters) ul li article a h3 {
     display: none;
   }
   main.legislation .timeline:has(details[open]) summary > span:after {
+    border-color: transparent;
     border-top: 0.1rem solid var(--buttonText);
     border-right: 0.1rem solid var(--buttonText);
     margin: 6rem 0.85rem;
@@ -5833,6 +6820,7 @@ main aside:not(.legislation aside, .search-filters) ul li article a h3 {
   }
   main.legislation .timeline:has(details[open]) .versions ol::-webkit-scrollbar {
     margin: 0;
+    display: none;
   }
   main.legislation .timeline:has(details[open]) .versions ol:before {
     content: "";
@@ -6471,6 +7459,76 @@ main aside:not(.legislation aside, .search-filters) ul li article a h3 {
     background-position: 0.5rem 0.45rem;
     background-size: 1rem;
   }
+  main.legislation .legislation-content > aside > div.up-to-date ul {
+    list-style: none;
+    display: flex;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+    margin: 0 1em 0.75em 1em;
+  }
+  main.legislation .legislation-content > aside > div.up-to-date ul li a {
+    font-weight: 500;
+    color: var(--text);
+    cursor: pointer;
+    background-color: var(--buttonBg);
+    color: var(--buttonText);
+    border: 0.0625rem solid transparent;
+    padding: 0.5em 1.5em;
+    text-align: center;
+    background-color: transparent;
+    color: var(--buttonBg);
+    border: 0.0625rem solid var(--buttonBg);
+    position: relative;
+    display: block;
+    padding: 0.35em 0.65em;
+    border-radius: 0.1875rem;
+    font-weight: 300;
+    white-space: nowrap;
+  }
+  main.legislation .legislation-content > aside > div.up-to-date ul li a:focus,
+  main.legislation .legislation-content > aside > div.up-to-date ul li a:hover {
+    background-color: var(--focusButtonBg);
+    color: var(--buttonText);
+    border-color: var(--focusOutline);
+    outline-color: var(--focusOutline);
+    outline-style: solid;
+    outline-width: 0.1rem;
+    text-decoration: none;
+    -webkit-box-shadow: 0 0 0.375rem 0 var(--focusShadow);
+    -moz-box-shadow: 0 0 0.375rem 0 var(--focusShadow);
+    box-shadow: 0 0 0.375rem 0 var(--focusShadow);
+  }
+  main.legislation .legislation-content > aside > div.up-to-date ul li a:active {
+    background-color: var(--focusButtonBg);
+    color: var(--buttonText);
+    border-color: var(--focusOutline);
+    outline-color: var(--focusOutline);
+    outline-style: solid;
+    outline-width: 0.1rem;
+    text-decoration: none;
+    -webkit-box-shadow: 0 0 0.375rem 0 var(--focusShadow);
+    -moz-box-shadow: 0 0 0.375rem 0 var(--focusShadow);
+    box-shadow: 0 0 0.375rem 0 var(--focusShadow);
+    background-color: var(--modalBg);
+    color: var(--modalText);
+  }
+  main.legislation .legislation-content > aside > div.up-to-date ul li a[aria-current="page"] {
+    padding: 0.35em 0.65em 0.35em 1.85em;
+    background: var(--activeBg);
+    color: var(--activeText);
+    border: 0.0625rem solid var(--activeBg);
+    font-weight: 500;
+  }
+  main.legislation .legislation-content > aside > div.up-to-date ul li a[aria-current="page"]:before {
+    position: absolute;
+    content: "";
+    margin: 0.5rem 0 0 -1.3em;
+    border-top: 0.175rem solid var(--activeText);
+    border-right: 0.175rem solid var(--activeText);
+    transform: rotate(135deg);
+    width: 0.65rem;
+    height: 0.225em;
+  }
   main.legislation .legislation-content > aside details {
     margin: 0;
   }
@@ -6538,6 +7596,9 @@ main aside:not(.legislation aside, .search-filters) ul li article a h3 {
   main.search-results .search-content:has(aside > details[open]) .search-filters > details > summary .close {
     display: unset;
   }
+  main.search-results .search-content:has(aside > details[open]) .search-filters > details > div section ul li[aria-current="page"] a {
+    color: var(--text);
+  }
   main.search-results .search-content:has(aside > details[open]) .search-filters div section h3 {
     padding: 0.5rem 0 0 0;
   }
@@ -6551,6 +7612,9 @@ main aside:not(.legislation aside, .search-filters) ul li article a h3 {
   main.search-results .search-content:has(aside > details[open]) .search-filters div section .pagination {
     margin: 0.85rem auto 0 auto;
     border-bottom: 0;
+  }
+  main.search-results .search-content:has(aside > details[open]) .search-filters div section.filter-subject input {
+    width: 100%;
   }
   main.search-results .search-content:has(aside > details[open]) .search-filters div section.filter-subject > ul li:not(:first-of-type) a {
     font-weight: 500;
@@ -6690,6 +7754,17 @@ main aside:not(.legislation aside, .search-filters) ul li article a h3 {
   main.search-results .search-content .search-header {
     order: -1;
   }
+  main.changes-to-legislation > section:has(form) form {
+    grid-template-columns: calc(37% - 1.5rem) calc(37% - 1.5rem) 26%;
+  }
+  main.changes-to-legislation > section:has(form) form > fieldset:last-of-type {
+    grid-column-start: unset;
+    grid-column-end: unset;
+  }
+  main.changes-to-legislation > section:has(form) form > div {
+    grid-column-start: span 3;
+    grid-column-end: 4;
+  }
 }
 @media (min-width: calc(1024px)) and (max-width: calc(1280px - 1px)) {
   main.search-results .search-content:not(:has(.pagination li:nth-child(24))) {
@@ -6798,6 +7873,10 @@ main aside:not(.legislation aside, .search-filters) ul li article a h3 {
   main.home section.whats-new:has(.articles) {
     grid-template-columns: 1fr fit-content(25rem);
   }
+  main.legislation .legislation-content > div .confers-power ul:has(li:nth-of-type(61)),
+  main.legislation .legislation-content > div .blanket-amendments ul:has(li:nth-of-type(61)) {
+    columns: 0 4;
+  }
   main.search-results .search-content:not(:has(.pagination li:nth-child(29))) {
     position: unset;
   }
@@ -6863,5 +7942,226 @@ main aside:not(.legislation aside, .search-filters) ul li article a h3 {
   main.search-results .search-content:has(aside details[open]) .search-filters {
     min-width: 18rem;
     max-width: 18rem;
+  }
+  main.changes-to-legislation > section:has(form) form {
+    grid-template-columns: calc(39% - 1rem) calc(39% - 1rem) 22%;
+  }
+  main.changes-to-legislation > section:has(form) form > div {
+    grid-column-start: span 3;
+    grid-column-end: 4;
+  }
+}
+@media print {
+  html {
+    --maxWidth: 100vw;
+    font-size: 0.85rem;
+  }
+  header:has(.hdr-menu details[open]) section > nav .hdr-tna,
+  .hdr-menu,
+  .hdr-search,
+  .legislation .legislation-navigation,
+  .legislation-content div + aside,
+  footer nav,
+  footer .mode,
+  footer .copyright p,
+  .legislation .timeline:has(details:not([open])) summary .button,
+  main.legislation .timeline:has(details:not([open])) summary > span:after,
+  .legislation .legislation-content > div .toc-detail button,
+  .legislation .legislation-content > div .toc-detail details summary,
+  main.search-results .search-content .search-filters > details > summary,
+  main .whats-new .newly-published > a:last-of-type,
+  main section.articles article div > a,
+  main .whats-new section.articles article:last-of-type > a:last-of-type:not(:has(img)) {
+    display: none;
+  }
+  :root a.hdr-home,
+  :root[colour-scheme="light"] a.hdr-home {
+    background: unset;
+  }
+  header {
+    margin: 1rem 0 0 0;
+  }
+  header section,
+  header .section {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  header section > nav {
+    margin: 0 auto;
+    min-height: unset;
+    text-align: center;
+  }
+  header section > nav a.hdr-home {
+    padding: 0.5em 0;
+    position: unset;
+    display: block;
+    font-size: 1rem;
+  }
+  main section h1,
+  main article h1 {
+    font-size: 1.75rem;
+  }
+  main > section:first-of-type:has(nav),
+  main > section:last-of-type,
+  main > article:last-of-type,
+  main section,
+  main .section,
+  main > section:first-of-type {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  main.legislation .legislation-content,
+  main.legislation .pit-search,
+  main.legislation .timeline:has(details:not([open])) {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  main.legislation:has(.timeline details:not([open])) .legislation-content > aside:first-of-type,
+  main.legislation:has(.timeline details[open]) .legislation-content > aside:first-of-type {
+    min-height: 12.5rem;
+  }
+  main.legislation:has(.timeline details:not([open])) .legislation-content > aside:first-of-type > div.up-to-date > a,
+  main.legislation:has(.timeline details[open]) .legislation-content > aside:first-of-type > div.up-to-date > a,
+  main.legislation .legislation-content > aside > div.up-to-date > a,
+  main.legislation:has(.timeline details:not([open])) .legislation-content > aside:first-of-type > div.extent > a,
+  main.legislation:has(.timeline details[open]) .legislation-content > aside:first-of-type > div.extent > a,
+  main.legislation .legislation-content > aside > div.extent > a,
+  main.legislation:has(.timeline details:not([open])) .legislation-content > aside:first-of-type > div.in-force > a,
+  main.legislation:has(.timeline details[open]) .legislation-content > aside:first-of-type > div.in-force > a,
+  main.legislation .legislation-content > aside > div.in-force > a,
+  main.legislation:has(.timeline details:not([open])) .legislation-content > aside:first-of-type > div.blanket-amendments > a,
+  main.legislation:has(.timeline details[open]) .legislation-content > aside:first-of-type > div.blanket-amendments > a,
+  main.legislation .legislation-content > aside > div.blanket-amendments > a,
+  main.legislation:has(.timeline details:not([open])) .legislation-content > aside:first-of-type > div.confers-power > a,
+  main.legislation:has(.timeline details[open]) .legislation-content > aside:first-of-type > div.confers-power > a,
+  main.legislation .legislation-content > aside > div.confers-power > a,
+  main.legislation:has(.timeline details:not([open])) .legislation-content > aside:first-of-type > div.up-to-date button,
+  main.legislation:has(.timeline details[open]) .legislation-content > aside:first-of-type > div.up-to-date button,
+  main.legislation .legislation-content > aside > div.up-to-date button,
+  main.legislation:has(.timeline details:not([open])) .legislation-content > aside:first-of-type > div.extent button,
+  main.legislation:has(.timeline details[open]) .legislation-content > aside:first-of-type > div.extent button,
+  main.legislation .legislation-content > aside > div.extent button,
+  main.legislation:has(.timeline details:not([open])) .legislation-content > aside:first-of-type > div.in-force button,
+  main.legislation:has(.timeline details[open]) .legislation-content > aside:first-of-type > div.in-force button,
+  main.legislation .legislation-content > aside > div.in-force button,
+  main.legislation:has(.timeline details:not([open])) .legislation-content > aside:first-of-type > div.blanket-amendments button,
+  main.legislation:has(.timeline details[open]) .legislation-content > aside:first-of-type > div.blanket-amendments button,
+  main.legislation .legislation-content > aside > div.blanket-amendments button,
+  main.legislation:has(.timeline details:not([open])) .legislation-content > aside:first-of-type > div.confers-power button,
+  main.legislation:has(.timeline details[open]) .legislation-content > aside:first-of-type > div.confers-power button,
+  main.legislation .legislation-content > aside > div.confers-power button {
+    display: none;
+  }
+  main.legislation:has(.timeline details:not([open])) .timeline,
+  main.legislation .timeline {
+    margin: 0;
+  }
+  .legislation .legislation-content > div .toc-detail h4,
+  .legislation .legislation-content > div .toc-detail h5,
+  .legislation .legislation-content > div .toc-detail h6 {
+    padding-bottom: 0.5rem;
+  }
+  main.search-results .search-content .search-header .sort-by {
+    position: unset;
+  }
+  .search-results .search-content {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .changes-to-legislation > section:has(form) + section,
+  .changes-to-legislation > section:has(form) form {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  footer {
+    background: unset;
+    color: unset;
+  }
+  footer section,
+  footer .section {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  footer .copyright {
+    border-color: var(--text);
+    margin: 0;
+    padding: 0;
+  }
+  footer .copyright div {
+    background-image: url('images/ogl-logo-print.png');
+  }
+}
+@media print and (orientation: portrait) {
+  .legislation .legislation-content > aside > div {
+    min-height: 2rem;
+  }
+  main.legislation:has(.timeline details:not([open])) .legislation-content > aside:first-of-type > div.up-to-date {
+    background-position: 1.15rem 0.45rem;
+    background-size: 1.1rem;
+  }
+  main.legislation:has(.timeline details:not([open])) .legislation-content > aside:first-of-type > div.extent,
+  main.legislation:has(.timeline details:not([open])) .legislation-content > aside:first-of-type > div.in-force {
+    background-position: 1rem 0.45rem;
+    background-size: 1.25rem;
+  }
+  main.legislation:has(.timeline details:not([open])) .legislation-content > aside:first-of-type > div.blanket-amendments {
+    background-position: 0.9rem 0.45rem;
+    background-size: 1.25rem;
+  }
+  main.legislation:has(.timeline details:not([open])) .legislation-content > aside:first-of-type > div.confers-power {
+    background-position: 1.15rem 0.45rem;
+    background-size: 0.8rem;
+  }
+  :root .legislation .legislation-content aside > div.up-to-date,
+  :root[colour-scheme="light"] .legislation .legislation-content aside > div.up-to-date {
+    background-position: 0.5rem 0.45rem;
+    background-size: 1.1rem;
+  }
+  :root .legislation .legislation-content aside > div.extent,
+  :root[colour-scheme="light"] .legislation .legislation-content aside > div.extent,
+  :root .legislation .legislation-content aside > div.in-force,
+  :root[colour-scheme="light"] .legislation .legislation-content aside > div.in-force {
+    background-position: 0.4rem 0.45rem;
+    background-size: 1.25rem;
+  }
+  :root .legislation .legislation-content aside > div.blanket-amendments,
+  :root[colour-scheme="light"] .legislation .legislation-content aside > div.blanket-amendments {
+    background-position: 0.25rem 0.45rem;
+    background-size: 1.25rem;
+  }
+  :root .legislation .legislation-content aside > div.confers-power,
+  :root[colour-scheme="light"] .legislation .legislation-content aside > div.confers-power {
+    background-position: 0.5rem 0.45rem;
+    background-size: 0.8rem;
+  }
+  .legislation .legislation-content > aside > div.not-up-to-date p:first-of-type {
+    background-size: 0.65rem;
+  }
+  main.search-results .search-content .search-filters:has(> details[open]) {
+    display: none;
+  }
+}
+@media print and (orientation: landscape) {
+  main.legislation .timeline:has(details[open]) {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  main.legislation .timeline:has(details[open]) .versions ol:before {
+    margin: 6.01rem 0 0 22.25rem;
+  }
+  main.legislation .timeline:has(details[open]) .versions ol li > a .version:before,
+  main.legislation .timeline:has(details[open]) .versions ol li > div .version:before {
+    margin: 3.98rem 50% -3.98rem 0;
+  }
+  main.legislation .timeline:has(details[open]) .versions ol li > a .version:after,
+  main.legislation .timeline:has(details[open]) .versions ol li > div .version:after {
+    margin: 2.24rem 0 0 50%;
+  }
+  main.legislation .timeline:has(details[open]) .versions ol li:last-of-type {
+    margin: 0 0 0 calc(var(--maxWidth) - 18.5rem);
+    background: #fafafa;
+  }
+  main.legislation .timeline:has(details[open]) .versions ol li:last-of-type > a .version:before {
+    margin: 3.98rem 50% -3.98rem -2.5rem;
   }
 }
