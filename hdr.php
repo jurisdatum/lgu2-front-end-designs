@@ -128,11 +128,12 @@
 								<optgroup label="Impact Assessments">
 									<option value="ia">All Impact Assessments</option>
 									<option value="ukia">UK Impact Assessments</option>
+								</optgroup>
 							</select>
 						</span>
 						<span>
 							<button type="submit">Search</button>
-							<a href="#">Advanced Search</a>
+							<a href="/tna/advanced-searches-full.php">Advanced Searches</a>
 						</span>
 					</fieldset>
 				</form>

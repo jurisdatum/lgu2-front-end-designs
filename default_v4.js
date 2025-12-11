@@ -7,6 +7,22 @@
 	var animateInterval = 0
 
 	$(document).ready(function() {
+    // for demo purposes only - show/hide design approaches
+        var urlParams = new URLSearchParams(window.location.search);
+        if(urlParams.has('approach')) {
+            var theApproach = getUrlVars()["approach"];
+            if(theApproach == "recommended") {
+                $('div.current-approach').remove();
+            }
+            else {
+                $('div.recommended-approach').remove();
+            }
+        }
+        else if($('div.recommended-approach').length != 0) {
+            $('div.current-approach').remove();
+        }
+    // end demo
+
 	// to undo hiding of browse dataset unavailable to user agents that do not have JS enabled
 		$('.scrollbar.initialise').removeAttr('hidden')
 		$('.scrollbar.initialise').removeClass('initialise')
@@ -22,7 +38,7 @@
 			$(this).removeClass('initialise')
 		})
 
-	// if a table of contents
+	// if a Table of Contents
 		if($('.legislation .toc-detail').length != 0) {
 			$('.toc-detail li .extent').each(function() {
 				$(this).addClass('hidden')
@@ -62,7 +78,7 @@
 			var mode = localStorage.getItem('colour-scheme')
 		}
 		else {
-			mode = ''			
+			mode = ''
 		}
 		toggleMode(mode)
 
@@ -187,7 +203,62 @@
 			}
 		}
 
-	// If a browse page with dataset visualisation
+	// If on the advanced search page
+        if($('.advanced-searches').length != 0) {
+            $('.search-type input#primary').change(function() {
+                if($('.search-type input#primary').is(':checked')) {
+                    $('#primary-types input').prop('checked', true);
+                }
+                else {
+                    $('#primary-types input').prop('checked', false);
+                }
+            })
+            $('.search-type input#secondary').change(function() {
+                if($('.search-type input#secondary').is(':checked')) {
+                    $('#secondary-types input').prop('checked', true);
+                }
+                else {
+                    $('#secondary-types input').prop('checked', false);
+                }
+            })
+            $('.search-type input#eu').change(function() {
+                if($('.search-type input#eu').is(':checked')) {
+                    $('#eu-types input').prop('checked', true);
+                }
+                else {
+                    $('#eu-types input').prop('checked', false);
+                }
+            })
+            $('.search-type #primary-types input').change(function() {
+                if($(this).is(':checked')) {
+                    if ($('.search-type #primary-types input:checked').length == $('.search-type #primary-types input').length)
+                        $('.search-type input#primary').prop('checked', true);
+                }
+                else {
+                    $('.search-type input#primary').prop('checked', false);
+                }
+            })
+            $('.search-type #secondary-types input').change(function() {
+                if($(this).is(':checked')) {
+                    if ($('.search-type #secondary-types input:checked').length == $('.search-type #secondary-types input').length)
+                        $('.search-type input#secondary').prop('checked', true);
+                }
+                else {
+                    $('.search-type input#secondary').prop('checked', false);
+                }
+            })
+            $('.search-type #eu-types input').change(function() {
+                if($(this).is(':checked')) {
+                    if ($('.search-type #eu-types input:checked').length == $('.search-type #eu-types input').length)
+                        $('.search-type input#eu').prop('checked', true);
+                }
+                else {
+                    $('.search-type input#eu').prop('checked', false);
+                }
+            })
+        }
+
+    // If a browse page with dataset visualisation
 		if($('.dataset').length != 0) {
 			var allDocsDd = $('.dataset div div dl dd');
 			var dds = []
@@ -473,7 +544,7 @@
 			})
 	}
 
-	// if a table of contents
+	// if a Table of Contents
 		if($('.legislation .toc-detail').length != 0) {
 			$('#toc').on('click', function() {
 				expandToc($(this))
@@ -990,14 +1061,14 @@
 	function expandToc(element) {
 		if($('#toc.expanded').length != 0) {
 			$(element).removeClass('expanded')
-			$(element).text('Expand table of contents')
+			$(element).text('Expand Table of Contents')
 			$('.toc-detail details').each(function() {
 				$(this).removeAttr('open')
 			})
 		}
 		else {
 			$(element).addClass('expanded')
-			$(element).text('Collapse table of contents')
+			$(element).text('Collapse Table of Contents')
 			$('.toc-detail details').each(function() {
 				$(this).prop('open',true)
 			})
